@@ -2,6 +2,7 @@ langchain
 langchain-openai
 python-decouple
 openai
+mistralai
 langserve[all]
 langchain-community
 upstash-vector
