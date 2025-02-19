@@ -1,5 +1,5 @@
 langchain
-langchain-openai
+langchain-deepseek
 python-decouple
 openai
 langserve[all]
