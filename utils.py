@@ -55,13 +55,16 @@ LLM_CONFIG = {
 model = ChatMistralAI(**LLM_CONFIG)
 
 message = """
-Answer this question using the provided context only.
+Answer the following question with insights drawn directly from the context. Be sure to include specific details from 
+the provided context and keep your answer clear and relevant. Avoid using general phrases like 'based on Wikipedia' 
+or 'according to sources.'
 
 {question}
 
 Context:
 {context}
 """
+
 
 prompt = ChatPromptTemplate.from_messages([("human", message)])
 
