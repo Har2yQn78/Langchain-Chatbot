@@ -9,6 +9,10 @@ def home_page():
 
 chain = utils.get_chain()
 
+#/chain/playground/
+#/chain/invoke/
+#/chain/stream/ for doing word by word like LLM
+
 add_routes(
     app,
     chain,
