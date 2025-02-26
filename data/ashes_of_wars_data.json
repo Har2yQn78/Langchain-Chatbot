@@ -1,0 +1,2330 @@
+{
+    "ashes_of_war": [
+      {
+        "name": "Stamp (Upward Cut)",
+        "type": "Combat Skill",
+        "description": "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for an upward strike.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes",
+            "Hammers"
+          ],
+          "exceptions": [
+            "small swords",
+            "medium swords"
+          ]
+        },
+        "skill": {
+          "name": "Stamp",
+          "variant": "Upward Cut"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "1,500 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Stamp (Sweep)",
+        "type": "Combat Skill",
+        "description": "Brace armament and step into a low stance that prevents recoil from most enemy attacks. Follow up with a strong attack for a sweeping strike.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes",
+            "Hammers"
+          ],
+          "exceptions": [
+            "small swords",
+            "medium swords"
+          ]
+        },
+        "skill": {
+          "name": "Stamp",
+          "variant": "Sweep"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Western Limgrave Beaches",
+          "source": "Invisible Teardrop Scarab",
+          "details": "Located near Giant Land Octopus enemies, east side of shore near pillars. Follow glowing prints to find the scarab."
+        }
+      },
+      {
+        "name": "Wild Strikes",
+        "type": "Combat Skill",
+        "description": "Swing armaments with wild abandon. Hold to continue swinging. Can be followed up with a normal or strong attack.",
+        "compatibility": {
+          "weapon_types": [
+            "Axes",
+            "Hammers"
+          ]
+        },
+        "skill": {
+          "name": "Wild Strikes"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Path to Stormveil Castle",
+          "source": "Teardrop Scarab",
+          "details": "Located between Stormhill Shack Site of Grace and Castleward Tunnel Site of Grace"
+        }
+      },
+      {
+        "name": "Lion's Claw",
+        "type": "Combat Skill",
+        "description": "Skill of the Redmanes, who fought alongside General Radahn. Somersault forwards, striking foes with armament.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes",
+            "Hammers"
+          ],
+          "exceptions": [
+            "small armaments",
+            "Thrusting Swords"
+          ]
+        },
+        "skill": {
+          "name": "Lion's Claw"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Fort Gael",
+          "source": "Lion Guardian",
+          "details": "Dropped upon defeating the Lion Guardian"
+        }
+      },
+      {
+        "name": "Cragblade",
+        "type": "Combat Skill",
+        "description": "Reinforce weapon with earth.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": ["Whips"]
+        },
+        "skill": {
+          "name": "Cragblade"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "West of Impassable Bridge",
+          "source": "Scarab",
+          "details": "Found on a scarab west of the Impassable Bridge"
+        }
+      },
+      {
+        "name": "Kick",
+        "type": "Combat Skill",
+        "description": "Push an enemy back with a high kick. Effective against enemies who are guarding, and can break a foe's stance. Sometimes a simple tool is the most effective.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Kick"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "800 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Endure",
+        "type": "Combat Skill",
+        "description": "Assume an anchored stance to brace for incoming attacks, briefly boosting poise. Damage taken while using this skill is reduced.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Endure"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "600 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Ground Slam",
+        "type": "Combat Skill",
+        "description": "Jump up high into the air and crash down on the ground ahead. The resulting pratfall sends a powerful shockwave in all directions.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Ground Slam"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Mistwood",
+          "source": "Teardrop Scarab",
+          "details": "Found rolling down the hill west of the Minor Erdtree in Mistwood"
+        }
+      },
+      {
+        "name": "Earthshaker",
+        "type": "Combat Skill",
+        "description": "Thrust armament into the ground, then gather strength to unleash an earth-shaking shockwave. Follow up with a strong attack to swing the armament in a sweeping strike.",
+        "compatibility": {
+          "weapon_types": [
+            "Greataxes",
+            "Warhammers",
+            "Colossal Weapons"
+          ]
+        },
+        "skill": {
+          "name": "Earthshaker"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "After Grand Lift of Dectus",
+          "source": "Invisible Scarab",
+          "details": "Found on the road after Grand Lift of Dectus, near a statue at the first intersection. Only appears at night."
+        }
+      },
+      {
+        "name": "Hoarah Loux's Earthshaker",
+        "type": "Combat Skill",
+        "description": "Slam both hands onto the ground to violently shake the earth and unleash a shockwave. Follow up with an additional input to slam the ground again.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Hoarah Loux's Earthshaker"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Enia",
+          "details": "Trade Remembrance of Hoarah Loux with Enia"
+        }
+      },
+      {
+        "name": "War Cry",
+        "type": "Combat Skill",
+        "description": "Give a war cry to rally the spirit and increase attack power. While active, strong attacks change to charging attacks.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Daggers",
+            "Thrusting Swords",
+            "Whips"
+          ]
+        },
+        "skill": {
+          "name": "War Cry"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "800 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Barbaric Roar",
+        "type": "Combat Skill",
+        "description": "Increase attack power. Strong attacks turn into savage combo attacks.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Daggers",
+            "Thrusting Swords",
+            "Whips"
+          ]
+        },
+        "skill": {
+          "name": "Barbaric Roar"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Ravine-Veiled Village",
+          "source": "Teardrop Beetle",
+          "details": "Found in the northeast of Lake of Liurnia, near but not accessible from Grand Lift of Dectus"
+        }
+      },
+      {
+        "name": "Braggart's Roar",
+        "type": "Combat Skill",
+        "description": "Declare your presence with a boastful roar. Raises attack power, defense, and stamina recovery speed.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Daggers",
+            "Thrusting Swords",
+            "Whips"
+          ]
+        },
+        "skill": {
+          "name": "Braggart's Roar"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Blackguard Big Boggart",
+          "source": "Weapon Drop",
+          "details": "Found on Blackguard Big Boggart's weapon after killing him or continuing Dung Eater's questline"
+        }
+      },
+      {
+        "name": "Troll's Roar",
+        "type": "Combat Skill",
+        "description": "Generate powerful shock wave then slam weapon down",
+        "compatibility": {
+          "weapon_types": [
+            "Large swords",
+            "Colossal swords",
+            "Large axes",
+            "Colossal axes",
+            "Large hammers",
+            "Colossal hammers"
+          ]
+        },
+        "skill": {
+          "name": "Troll's Roar"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Church of Repose",
+          "source": "Ground Loot",
+          "details": "Found on the top of the big rock just southeast of the Church of Repose in Mountaintops of the Giants"
+        }
+      },
+      {
+        "name": "Spinning Slash",
+        "type": "Combat Skill",
+        "description": "Skill favored by dexterous warriors. Slash foes as your body spins. Additional input allows for a follow-up attack.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes",
+            "Polearms"
+          ],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Spinning Slash"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "1,200 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Impaling Thrust",
+        "type": "Combat Skill",
+        "description": "Skill that lets piercing armaments overcome enemy shields. Build power, then lunge forward for a strong thrust that pierces an enemy's guard.",
+        "compatibility": {
+          "weapon_types": ["All armaments capable of thrusting"],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Impaling Thrust"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "1,000 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Piercing Fang",
+        "type": "Combat Skill",
+        "description": "Skill used by Yura, the Bloody Finger Hunter. Starting with the blade held horizontally, make a powerful thrust that cannot be blocked",
+        "compatibility": {
+          "weapon_types": [
+            "Medium armaments capable of thrusting",
+            "Large armaments capable of thrusting"
+          ]
+        },
+        "skill": {
+          "name": "Piercing Fang"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Bloody Finger Hunter Yura",
+          "source": "NPC Reward",
+          "details": "Acquired from Bloody Finger Hunter Yura"
+        }
+      },
+      {
+        "name": "Repeating Thrust",
+        "type": "Combat Skill",
+        "description": "Twist to build power, then unleash a flurry of thrusts. This Skill takes some time to build up, but it is very powerful.",
+        "compatibility": {
+          "weapon_types": ["All armaments capable of thrusting"],
+          "exceptions": ["Colossal Weapons"]
+        },
+        "skill": {
+          "name": "Repeating Thrust"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Agheel Lake North",
+          "source": "Night's Cavalry",
+          "details": "Dropped by the Night's Cavalry that roams the bridge near Agheel Lake North"
+        }
+      },
+      {
+        "name": "Double Slash",
+        "type": "Combat Skill",
+        "description": "Skill of superior swordsmen. Perform a crossing slash attack from a low stance. Repeated inputs allow for up to two follow-up attacks.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of slashing",
+            "Polearms capable of slashing"
+          ],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Double Slash"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Sellia, Town of Sorcery",
+          "source": "Teardrop Scarab",
+          "details": "Found high above on a very large root in the western end of town"
+        }
+      },
+      {
+        "name": "Sword Dance",
+        "type": "Combat Skill",
+        "description": "Quickly close in to perform a series of spinning upward slashes. Follow up with an additional input to finish with a downward slash.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of slashing",
+            "Axes capable of slashing",
+            "Polearms capable of slashing"
+          ],
+          "exceptions": [
+            "Colossal weapons",
+            "Great spears"
+          ]
+        },
+        "skill": {
+          "name": "Sword Dance"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Liurnia",
+          "source": "Teardrop Scarab",
+          "details": "Found near the Minor Erdtree in southwest Liurnia"
+        }
+      },
+      {
+        "name": "Unsheathe",
+        "type": "Combat Skill",
+        "description": "Skill of swordsmen from the Land of Reeds. Sheathe blade, holding it at the hip in a composed stance. Follow up with a normal or strong attack to perform a swift slash attack.",
+        "compatibility": {
+          "weapon_types": ["Katanas"]
+        },
+        "skill": {
+          "name": "Unsheathe"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Agheel Lake",
+          "source": "Teardrop Scarab",
+          "details": "Found in the water in the South East portion of Agheel Lake, North West of the Agheel Lake South Site of Grace"
+        }
+      },
+      {
+        "name": "Quickstep",
+        "type": "Combat Skill",
+        "description": "Skill prized by the crafty and fleet of foot. Perform a quickstep maneuver that allows for circling around lock-on targets.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Quickstep"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "800 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Bloodhound's Step",
+        "type": "Combat Skill",
+        "description": "Skill that allows the user to become temporarily invisible while dodging at high speed. Moves faster and travels farther than a regular quickstep. This skill can be used to circle around lock-on targets.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Bloodhound's Step"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Dragonbarrow",
+          "source": "Night's Cavalry",
+          "details": "Dropped by a Night's Cavalry at the bridge in front of the Lenne's Rise tower"
+        }
+      },
+      {
+        "name": "Raptor of the Mists",
+        "type": "Combat Skill",
+        "description": "Duck into a low stance, momentarily vanishing. If an enemy attack connects, avian wings will allow for a quick escape into the air.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Raptor of the Mists"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Raya Lucaria",
+          "source": "Quest Reward",
+          "details": "Found after aiding Bloody Finger Hunter Yura in defeating his target in Raya Lucaria"
+        }
+      },
+      {
+        "name": "Beast's Roar",
+        "type": "Combat Skill",
+        "description": "Unleash a beastly roar, rending the air as a forward-travelling projectile.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Beast's Roar"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Bestial Sanctum",
+          "source": "Gurranq, Beast Clergyman",
+          "details": "Reward after giving him the fourth Deathroot"
+        }
+      },
+      {
+        "name": "Square Off",
+        "type": "Combat Skill",
+        "description": "This skill starts with the sword held level. Follow up with a normal attack to slash upwards through enemy's guard, or a strong attack to perform a running thrust.",
+        "compatibility": {
+          "weapon_types": ["Straight Swords"]
+        },
+        "skill": {
+          "name": "Square Off"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Siofra River",
+          "source": "Teardrop Scarab",
+          "details": "Found rolling around at the edge of a cliff"
+        }
+      },
+      {
+        "name": "Charge Forth",
+        "type": "Combat Skill",
+        "description": "Quickly charge forward with the armament at the hip, carrying the momentum into a thrust. Hold to cover a greater distance.",
+        "compatibility": {
+          "weapon_types": [
+            "Polearms capable of thrusting",
+            "Heavy Thrusting Swords",
+            "Twinblades"
+          ]
+        },
+        "skill": {
+          "name": "Charge Forth"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Liurnia of the Lakes",
+          "source": "Teardrop Scarab",
+          "details": "Found west of the Academy Gate Town site of grace, hanging on the ceiling beneath the bridge"
+        }
+      },
+      {
+        "name": "Spinning Strikes",
+        "type": "Combat Skill",
+        "description": "Polearm skill that performs continuous spinning attacks. Hold to continue the attack. Can be followed up with a normal or strong attack. Nullifies projectiles such as arrows while spinning.",
+        "compatibility": {
+          "weapon_types": ["Polearms"],
+          "exceptions": ["Great Spears"]
+        },
+        "skill": {
+          "name": "Spinning Strikes"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Banished Knight's Halberd",
+          "source": "Weapon Extraction",
+          "details": "Can be extracted from Banished Knight's Halberd +8"
+        }
+      },
+      {
+        "name": "Giant Hunt",
+        "type": "Combat Skill",
+        "description": "Skill developed for confronting gigantic foes. Step forward from a low stance, carrying the momentum into a sudden upward thrust.",
+        "compatibility": {
+          "weapon_types": [
+            "Large weapons capable of thrusting",
+            "Colossal weapons capable of thrusting",
+            "Spears",
+            "Twinblades"
+          ]
+        },
+        "skill": {
+          "name": "Giant Hunt"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Northern Liurnia",
+          "source": "Night's Cavalry",
+          "details": "Dropped by Night's Cavalry boss in northern Liurnia. Only appears at night."
+        }
+      },
+      {
+        "name": "Storm Blade",
+        "type": "Combat Skill",
+        "description": "Your armament is wrapped in a stormy blade that can be fired in rapid succession.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments capable of slashing"]
+        },
+        "skill": {
+          "name": "Storm Blade"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "1,800 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Storm Assault",
+        "type": "Combat Skill",
+        "description": "One of the skills that channel the tempests of Stormveil. Leap forward through surrounding storm winds and thrust armament downward. The attack will produce more storm winds at the point of impact.",
+        "compatibility": {
+          "weapon_types": [
+            "Polearms capable of thrusting",
+            "Heavy Thrusting Swords",
+            "Twinblades"
+          ]
+        },
+        "skill": {
+          "name": "Storm Assault"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Stormveil Castle",
+          "source": "Teardrop Scarab",
+          "details": "Found in Stormveil Castle"
+        }
+      },
+      {
+        "name": "Stormcaller",
+        "type": "Combat Skill",
+        "description": "One of the skills that channel the tempests of Stormveil. Spin armament to create surrounding storm winds. Repeated inputs allow for up to two follow-up attacks.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of slashing",
+            "Axes",
+            "Hammers",
+            "Polearms"
+          ],
+          "exceptions": [
+            "Small weapons",
+            "Colossal weapons"
+          ]
+        },
+        "skill": {
+          "name": "Stormcaller"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Stormveil Castle",
+          "source": "Teardrop Scarab",
+          "details": "Located in the northern section of the castle, past the courtyard and just before the Secluded Cell Site of Grace"
+        }
+      },
+      {
+        "name": "Storm Stomp",
+        "type": "Combat Skill",
+        "description": "One of the skills that channel the tempests of Stormveil. Stomp hard on the ground to kick up a momentary storm.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Storm Stomp"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Gatefront Ruins",
+          "source": "Treasure Chest",
+          "details": "Found in the southeastern area of Gatefront Ruins, in an underground room accessed via stairs. Located in the same chest as the Whetstone Knife"
+        }
+      },
+      {
+        "name": "Vacuum Slice",
+        "type": "Combat Skill",
+        "description": "Lost skill of ancient heroes. Hold the armament aloft to surround it with a shearing vacuum, then launch it forwards as a blade-like projectile.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes"
+          ],
+          "exceptions": [
+            "Small axes",
+            "Colossal axes"
+          ]
+        },
+        "skill": {
+          "name": "Vacuum Slice"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Deeproot Depths",
+          "source": "Ground Loot",
+          "details": "Found inside the ruined temple surrounded by waterfalls in Deeproot Depths"
+        }
+      },
+      {
+        "name": "Phantom Slash",
+        "type": "Combat Skill",
+        "description": "Skill inspired by the fond remembrances of the Night's Cavalry. Creates an apparition of the knights' former instructor who guides a joint lunging upward swing. Additional input allows for a follow-up attack.",
+        "compatibility": {
+          "weapon_types": [
+            "Polearms",
+            "Twinblades"
+          ],
+          "exceptions": ["Great Spears"]
+        },
+        "skill": {
+          "name": "Phantom Slash"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Forbidden Lands",
+          "source": "Night's Cavalry",
+          "details": "Dropped by a Night's Cavalry northeast of the Forbidden Lands Grace"
+        }
+      },
+      {
+        "name": "Determination",
+        "type": "Combat Skill",
+        "description": "Hold the flat of the armament to your face and pledge your resolve, powering up your next attack.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Determination"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Agheel Lake",
+          "source": "Teardrop Scarab",
+          "details": "Found on the path at the bridge north of Agheel Lake"
+        }
+      },
+      {
+        "name": "Royal Knight's Resolve",
+        "type": "Combat Skill",
+        "description": "Skill of the knights who once served the Elden Lord. Hold the flat of the armament to your face and pledge your resolve, greatly powering up your next attack.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Royal Knight's Resolve"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Volcano Manor",
+          "source": "Ground Loot",
+          "details": "Found in Altus Plateau, Volcano Manor. From Temple of Eiglay grace, proceed to chapel of Serpent-Men, through second floor door and Imp Statue Door, to a room with cages. Item is on a corpse on east side."
+        }
+      },
+      {
+        "name": "Glintstone Pebble",
+        "type": "Combat Skill",
+        "description": "Skill that employs the glintstone sorcery of the same name. Follow up with a strong attack to chain this skill into a lunging thrust, performed while the armament is still imbued with glintstone.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of thrusting",
+            "Polearms capable of thrusting"
+          ],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Glintstone Pebble"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Sorcerer Rogier",
+          "cost": "1,500 runes",
+          "alternative": "Twin Maiden Husks (after giving Rogier's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Glintblade Phalanx",
+        "type": "Combat Skill",
+        "description": "Skill that creats glitnstone blades over your head and attack enemies automatically when they get close enough",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of thrusting",
+            "Polearms capable of thrusting"
+          ],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Glintblade Phalanx"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Rogier's Rapier",
+          "details": "Can be extracted from Rogier's Rapier after receiving it from him at Roundtable Hold"
+        }
+      },
+      {
+        "name": "Carian Greatsword",
+        "type": "Combat Skill",
+        "description": "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power.",
+        "compatibility": {
+          "weapon_types": ["Swords"],
+          "exceptions": ["Colossal Weapons"]
+        },
+        "skill": {
+          "name": "Carian Greatsword"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Sorcerer Rogier",
+          "cost": "2,500 runes",
+          "alternative": "Twin Maiden Husks (after giving Rogier's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Carian Grandeur",
+        "type": "Combat Skill",
+        "description": "Carian royal prestige embodied in a skill. Transform blade into a magical greatsword and swing it down. Can be charged to increase its power by up to two levels.",
+        "compatibility": {
+          "weapon_types": ["Swords"],
+          "exceptions": ["Colossal Weapons"]
+        },
+        "skill": {
+          "name": "Carian Grandeur"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Caria Manor",
+          "source": "Ground Loot",
+          "details": "Found on the roof of a tall structure in the gardens, accessed by jumping down the cliffs from the Manor's Upper Level"
+        }
+      },
+      {
+        "name": "Spinning Weapon",
+        "type": "Combat Skill",
+        "description": "Defensive skill employed by Carian princesses. Lifts armament into mid-air, then makes it spin violently. Those it touches will suffer successive attacks.",
+        "compatibility": {
+          "weapon_types": [
+            "Small Swords",
+            "Medium Swords",
+            "Axes",
+            "Hammers",
+            "Polearms",
+            "Staves"
+          ],
+          "exceptions": ["Great Spears"]
+        },
+        "skill": {
+          "name": "Spinning Weapon"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Sorcerer Rogier",
+          "cost": "1,000 runes",
+          "alternative": "Twin Maiden Husks (after giving Rogier's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Loretta's Slash",
+        "type": "Combat Skill",
+        "description": "Skill of Loretta the Royal Knight. Leap forward, imbuing the blade with glintstone, then descend, accelerating into a sweeping slash.",
+        "compatibility": {
+          "weapon_types": [
+            "Polearms",
+            "Twinblades"
+          ]
+        },
+        "skill": {
+          "name": "Loretta's Slash"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Caria Manor",
+          "source": "Boss Drop",
+          "details": "Dropped by Royal Knight Loretta upon defeat"
+        }
+      },
+      {
+        "name": "Gravitas",
+        "type": "Combat Skill",
+        "description": "Pierce the ground with your armament to damage foes as a surge of gravity draws them in.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": ["Small armaments"]
+        },
+        "skill": {
+          "name": "Gravitas"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Cave of Knowledge",
+          "source": "Ground Loot",
+          "details": "Found by accessing the back entrance of the Cave of Knowledge (Fringefolk Hero's Grave) from the beach side"
+        }
+      },
+      {
+        "name": "Waves of Darkness",
+        "type": "Combat Skill",
+        "description": "Plunge armament into the ground to release three waves of darkness.",
+        "compatibility": {
+          "weapon_types": [
+            "Greataxes",
+            "Warhammers",
+            "Colossal Weapons",
+            "Great Spears"
+          ]
+        },
+        "skill": {
+          "name": "Waves of Darkness"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Enia",
+          "details": "Trade Remembrance of the Naturalborn with Enia"
+        }
+      },
+      {
+        "name": "Flaming Strike",
+        "type": "Combat Skill",
+        "description": "Skill that emits flame in a wide frontward arc. Follow up with a strong attack to perform a lunging, sweeping strike. This will also coat the armament in fire.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Colossal Weapons",
+            "Whips"
+          ]
+        },
+        "skill": {
+          "name": "Flaming Strike"
+        },
+        "affinity": "Fire",
+        "location": {
+          "primary": "Redmane Castle",
+          "source": "Teardrop Scarab",
+          "details": "Found in a small graveyard along the south cliffside, behind the castle. From front gate, follow right along cliff towards ballista, past vampire bats, and jump across a small gap to reach the graveyard"
+        }
+      },
+      {
+        "name": "Flame of the Redmanes",
+        "type": "Combat Skill",
+        "description": "Skill of the Redmanes, who fought alongside General Radahn. Produce a powerful burst of flames in a wide frontward arc.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Flame of the Redmanes"
+        },
+        "affinity": "Fire",
+        "location": {
+          "primary": "Fort Gael",
+          "source": "Invisible Teardrop Scarab",
+          "details": "Located in front of the Fort Gael North Site of Grace"
+        }
+      },
+      {
+        "name": "Eruption",
+        "type": "Combat Skill",
+        "description": "Slamming the armament into the ground will spawn roiling lava which also spouts up upon release.",
+        "compatibility": {
+          "weapon_types": [
+            "Greatswords",
+            "Greataxes",
+            "Great Hammers",
+            "Heavy Thrusting Swords",
+            "Colossal Weapons"
+          ]
+        },
+        "skill": {
+          "name": "Eruption"
+        },
+        "affinity": "Fire",
+        "location": {
+          "primary": "Volcano Manor",
+          "source": "Knight Bernahl",
+          "cost": "8,000 runes"
+        }
+      },
+      {
+        "name": "Prelate's Charge",
+        "type": "Combat Skill",
+        "description": "Slam armament into the ground to create a surge of flames, then charge in. Hold to continue the charge.",
+        "compatibility": {
+          "weapon_types": [
+            "Large axes",
+            "Colossal axes",
+            "Large hammers",
+            "Colossal hammers"
+          ]
+        },
+        "skill": {
+          "name": "Prelate's Charge"
+        },
+        "affinity": "Flame Art",
+        "location": {
+          "primary": "Mountaintops of the Giants",
+          "source": "Teardrop Scarab",
+          "details": "Found south of the Whiteridge Road site of grace, hanging on a tree at the south end of a Fire Monk campsite"
+        }
+      },
+      {
+        "name": "Black Flame Tornado",
+        "type": "Combat Skill",
+        "description": "Spin armament overhead and then plunge it into the ground to summon a raging vortex of black flames. Hold to create an initial flame tornado while spinning the armament.",
+        "compatibility": {
+          "weapon_types": [
+            "Polearms",
+            "Twinblades"
+          ]
+        },
+        "skill": {
+          "name": "Black Flame Tornado"
+        },
+        "affinity": "Flame Art",
+        "location": {
+          "primary": "Crumbling Farum Azula",
+          "source": "Boss Drop",
+          "details": "Dropped by the Godskin Duo Boss inside the Dragon Temple area"
+        }
+      },
+      {
+        "name": "Thunderbolt",
+        "type": "Combat Skill",
+        "description": "Raise armament aloft to call down a bolt of lightning. Can be fired in rapid succession.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Thunderbolt"
+        },
+        "affinity": "Lightning",
+        "location": {
+          "primary": "Leyndell, Royal Capital",
+          "source": "Teardrop Beetle",
+          "details": "Located northwest of the Avenue Balcony site of grace"
+        }
+      },
+      {
+        "name": "Lightning Slash",
+        "type": "Combat Skill",
+        "description": "Call down a bolt of lightning into armament, then swing it down to create an explosive shock. The armament retains the lightning enchantment for a while.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes",
+            "Hammers"
+          ]
+        },
+        "skill": {
+          "name": "Lightning Slash"
+        },
+        "affinity": "Lightning",
+        "location": {
+          "primary": "Capital Outskirts",
+          "source": "Teardrop Beetle",
+          "details": "Found in the middle of an enclosed area just outside the Capital Outskirts"
+        }
+      },
+      {
+        "name": "Lightning Ram",
+        "type": "Combat Skill",
+        "description": "Skill inspired by tumbling rams. Let out a bleat, then tumble forwards, clad in lightning. Tumbles can be repeated in rapid succession.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Lightning Ram"
+        },
+        "affinity": "Lightning",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Teardrop Scarab",
+          "details": "Found just south of Sainted Hero's Grave"
+        }
+      },
+      {
+        "name": "Sacred Blade",
+        "type": "Combat Skill",
+        "description": "Grants armament's attacks holy essence and fires off a golden blade projectile. The armament retains its holy essence for awhile.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Whips",
+            "Fists",
+            "Claws"
+          ]
+        },
+        "skill": {
+          "name": "Sacred Blade"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Third Church of Marika",
+          "source": "Teardrop Scarab",
+          "details": "Found north of the church, next to a spirit spring"
+        }
+      },
+      {
+        "name": "Prayerful Strike",
+        "type": "Combat Skill",
+        "description": "Raise armament aloft in prayer, then slam it into the ground. This inspired blow restores HP to the self and nearby allies if it successfully hits.",
+        "compatibility": {
+          "weapon_types": [
+            "Axes",
+            "Hammers"
+          ]
+        },
+        "skill": {
+          "name": "Prayerful Strike"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Invisible Teardrop Scarab",
+          "details": "Found in the lake north of the Sealed Tunnel, traveling through an opening in the rock"
+        }
+      },
+      {
+        "name": "Sacred Ring of Light",
+        "type": "Combat Skill",
+        "description": "The armament gathers a sacred ring of light and then fires it forward, the skill can be fired in rapid succession.",
+        "compatibility": {
+          "weapon_types": ["Polearms"],
+          "exceptions": ["Great Spears"]
+        },
+        "skill": {
+          "name": "Sacred Ring of Light"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Caelid",
+          "source": "Teardrop Scarab",
+          "details": "Found in the Aeonian Swamps"
+        }
+      },
+      {
+        "name": "Sacred Order",
+        "type": "Combat Skill",
+        "description": "Skill of the Golden Order fundamentalist knights. Perform a salute and grant the armament holy essence. Highly effective against Those Who Live in Death.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Sacred Order"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Teardrop Scarab",
+          "details": "Found just north-west of the Abandoned Coffin Site Of Grace"
+        }
+      },
+      {
+        "name": "Shared Order",
+        "type": "Combat Skill",
+        "description": "Skill of the Golden Order fundamentalist knights. Grant the armament and those of nearby allies holy essence. Highly effective against Those Who Live in Death.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Shared Order"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Night's Cavalry",
+          "details": "Found next to the Altus Highway Junction Site Of Grace"
+        }
+      },
+      {
+        "name": "Golden Land",
+        "type": "Combat Skill",
+        "description": "Thrust armament into the ground, then gather strength to unleash a blast of sacred energy that coalesces into golden darts. Follow up with a strong attack to swing the armament in a sweeping strike",
+        "compatibility": {
+          "weapon_types": [
+            "Greataxes",
+            "Warhammers",
+            "Colossal Weapons"
+          ]
+        },
+        "skill": {
+          "name": "Golden Land"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Deeproot Depths",
+          "source": "Teardrop Scarab",
+          "details": "From the Great Waterfall Crest site of grace, head straight ahead and to the left, behind the Erdtree Avatar who drops the Staff of the Avatar"
+        }
+      },
+      {
+        "name": "Golden Slam",
+        "type": "Combat Skill",
+        "description": "Jump and slam on ground",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Golden Slam"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Teardrop Scarab",
+          "details": "Found northwest of Woodfolk Ruins, near the Altus Plateau Erdtree"
+        }
+      },
+      {
+        "name": "Golden Vow",
+        "type": "Combat Skill",
+        "description": "Skill passed down from antiquity among the knights of the capital. Raise armament aloft and pledge to honor the Erdtree in battle, granting self and nearby allies increased attack power and defense.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Golden Vow"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Limgrave",
+          "source": "Mounted Knight",
+          "details": "Dropped by Mounted Knight when defeated"
+        }
+      },
+      {
+        "name": "Vow of the Indomitable",
+        "type": "Combat Skill",
+        "description": "Skill of the ancient warriors of the Erdtree. Hold shield aloft to imbue yourself with golden power, granting momentary invincibility.",
+        "compatibility": {
+          "weapon_types": ["Shields"]
+        },
+        "skill": {
+          "name": "Vow of the Indomitable"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Liurnia of the Lakes",
+          "source": "Teardrop Scarab",
+          "details": "Found in the southwestern swampy area of the map"
+        }
+      },
+      {
+        "name": "Holy Ground",
+        "type": "Combat Skill",
+        "description": "Raise shield to create an Erdtree-consecrated area that continuously restores HP and boosts defense for self and allies inside it",
+        "compatibility": {
+          "weapon_types": ["Shields"]
+        },
+        "skill": {
+          "name": "Holy Ground"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Auriza Hero's Grave",
+          "source": "Ground Loot",
+          "details": "Found together with Tree Sentinel Armor set"
+        }
+      },
+      {
+        "name": "Poisonous Mist",
+        "type": "Combat Skill",
+        "description": "Coats the selected armament in poison, slashing spreads the toxic mist forward. The armament retain its poison for a while.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Whips",
+            "Fists",
+            "Claws"
+          ]
+        },
+        "skill": {
+          "name": "Poisonous Mist"
+        },
+        "affinity": "Poison",
+        "location": {
+          "primary": "Caelid",
+          "source": "Teardrop Scarab",
+          "details": "Found in the Aeonian Swamps"
+        }
+      },
+      {
+        "name": "Poison Moth Flight",
+        "type": "Combat Skill",
+        "description": "Slash with a poison-infused blade. If the follow-up strike lands on a poisoned foe, it will deal significant damage.",
+        "compatibility": {
+          "weapon_types": [
+            "Small Swords",
+            "Medium Swords"
+          ],
+          "exceptions": ["Twinblades"]
+        },
+        "skill": {
+          "name": "Poison Moth Flight"
+        },
+        "affinity": "Poison",
+        "location": {
+          "primary": "Caelid",
+          "source": "Night's Cavalry",
+          "details": "Dropped by Night's Cavalry in Caelid"
+        }
+      },
+      {
+        "name": "Blood Blade",
+        "type": "Combat Skill",
+        "description": "Wound self to coat the armament with blood, then unleash an airborne blood blade that causes hemorrhaging. Can be fired in rapid succession.",
+        "compatibility": {
+          "weapon_types": [
+            "Small Swords",
+            "Medium Swords"
+          ]
+        },
+        "skill": {
+          "name": "Blood Blade"
+        },
+        "affinity": "Blood",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Teardrop Scarab",
+          "details": "Found northeast of Erdtree-Gazing Hill, above a pond"
+        }
+      },
+      {
+        "name": "Bloody Slash",
+        "type": "Combat Skill",
+        "description": "Blood Oath skill granted by the Lord of Blood. From a low stance, coat the blade in your own blood to unleash a rending blood slash in a wide arc.",
+        "compatibility": {
+          "weapon_types": ["Swords"],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Bloody Slash"
+        },
+        "affinity": "Blood",
+        "location": {
+          "primary": "Fort Haight",
+          "source": "Enemy Drop",
+          "details": "Dropped by a Beast Crest Heater Knight fought at the top of the ramparts"
+        }
+      },
+      {
+        "name": "Blood Tax",
+        "type": "Combat Skill",
+        "description": "Blood Oath skill granted by Lord of Blood. Twist to build power, then unleash a flurry of thrusts that rob the target of both their blood and their HP.",
+        "compatibility": {
+          "weapon_types": ["All armaments capable of thrusting"],
+          "exceptions": ["Colossal Weapons"]
+        },
+        "skill": {
+          "name": "Blood Tax"
+        },
+        "affinity": "Blood",
+        "location": {
+          "primary": "Mohgwyn Dynasty",
+          "source": "Ground Loot",
+          "details": "Found in a small cave at the northern edge of the blood lake with four blood albinaurics"
+        }
+      },
+      {
+        "name": "Seppuku",
+        "type": "Combat Skill",
+        "description": "Plunge the blade into your stomach to stain it with blood. Increases attack power and improves ability to inflict blood loss.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of thrusting",
+            "Polearms capable of thrusting"
+          ],
+          "exceptions": [
+            "Small weapons",
+            "Colossal weapons"
+          ]
+        },
+        "skill": {
+          "name": "Seppuku"
+        },
+        "affinity": "Blood",
+        "location": {
+          "primary": "Freezing Lake",
+          "source": "Invisible Scarab",
+          "details": "Found on the frozen lake next to the 'Freezing Lake' site of grace. Follow the glowing prints and wait for the scarab to come around"
+        }
+      },
+      {
+        "name": "Ice Spear",
+        "type": "Combat Skill",
+        "description": "Skill of the warriors who served Lunar Princess Ranni. Spin armament to release cold magic, then channel it into a piercing spear of ice.",
+        "compatibility": {
+          "weapon_types": [
+            "Polearms capable of thrusting",
+            "Twinblades"
+          ]
+        },
+        "skill": {
+          "name": "Ice Spear"
+        },
+        "affinity": "Cold",
+        "location": {
+          "primary": "Liurnia of the Lakes",
+          "source": "Night's Cavalry",
+          "details": "Dropped by a Night's Cavalry patrolling near the broken Gate Town Bridge. Only appears at night time"
+        }
+      },
+      {
+        "name": "Chilling Mist",
+        "type": "Combat Skill",
+        "description": "Coat armament in frost, and then slash, spreading frigid mist forwards. The armament retains its frost for a while.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"],
+          "exceptions": [
+            "Whips",
+            "Fists",
+            "Claws"
+          ]
+        },
+        "skill": {
+          "name": "Chilling Mist"
+        },
+        "affinity": "Cold",
+        "location": {
+          "primary": "Three Sisters",
+          "source": "Teardrop Scarab",
+          "details": "Found in the ruins south of Renna's Rise in Three Sisters, Liurnia"
+        }
+      },
+      {
+        "name": "Hoarfrost Stomp",
+        "type": "Combat Skill",
+        "description": "Stomp hard to spread a trail of freezing mist on the ground. The mist applies the frost status effect.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Hoarfrost Stomp"
+        },
+        "affinity": "Cold",
+        "location": {
+          "primary": "Liurnia of the Lakes",
+          "source": "Invisible Teardrop Scarab",
+          "details": "Found in the shallow body of water southeast of Caria Manor in northern Liurnia"
+        }
+      },
+      {
+        "name": "Spectral Lance",
+        "type": "Combat Skill",
+        "description": "Skill of the headless Mausoleum Knights. Hurl a phantasmic spear at foes.",
+        "compatibility": {
+          "weapon_types": ["Polearms"],
+          "exceptions": ["Reapers"]
+        },
+        "skill": {
+          "name": "Spectral Lance"
+        },
+        "affinity": "Occult",
+        "location": {
+          "primary": "Raya Lucaria Academy",
+          "source": "Teardrop Scarab",
+          "details": "Found in Raya Lucaria Academy"
+        }
+      },
+      {
+        "name": "Lifesteal Fist",
+        "type": "Combat Skill",
+        "description": "Skill that demonstrates mastery of the art of controlling vital energies. A slow, controlled punch with an energy-infused fist that renders foes unconscious and steals their HP. Only effective against foes of human build.",
+        "compatibility": {
+          "weapon_types": [
+            "Fists",
+            "Claws"
+          ]
+        },
+        "skill": {
+          "name": "Lifesteal Fist"
+        },
+        "affinity": "Occult",
+        "location": {
+          "primary": "Caelid",
+          "source": "Teardrop Scarab",
+          "details": "Found along the Caelid Highway"
+        }
+      },
+      {
+        "name": "White Shadow's Lure",
+        "type": "Combat Skill",
+        "description": "Hold armament in a brief, silent prayer to create a white shadow. The apparition lures in foes of human build who are not in combat, drawing their aggression. Effective on demi-humans even if they are already in a combat state.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "White Shadow's Lure"
+        },
+        "affinity": "Occult",
+        "location": {
+          "primary": "Consecrated Snowfield",
+          "source": "Invisible Teardrop Scarab",
+          "details": "Found northwest of the Inner Consecrated Snowfield site of grace, between the grace and Ordina, Liturgical Town. The scarab is followed by five wolves and leaves glowing white tracks"
+        }
+      },
+      {
+        "name": "Assassin's Gambit",
+        "type": "Combat Skill",
+        "description": "A skill where it masks the player's presence at the cost of a self-inflicted wound. The ablilty grants near-invisibility and silenced footsteps.",
+        "compatibility": {
+          "weapon_types": [
+            "Small Straight Swords",
+            "Medium Straight Swords",
+            "Thrusting Swords"
+          ]
+        },
+        "skill": {
+          "name": "Assassin's Gambit"
+        },
+        "affinity": "Occult",
+        "location": {
+          "primary": "Volcano Manor",
+          "source": "Knight Bernahl",
+          "cost": "6,500 runes",
+          "details": "Available after completing first Volcano Manor contract"
+        }
+      },
+      {
+        "name": "Mighty Shot",
+        "type": "Combat Skill",
+        "description": "Archery skill performed from an oblique stance. Ready the bow, then pull the bowstring to its limit to enhance the power of the shot, penetrating the enemy's guard.",
+        "compatibility": {
+          "weapon_types": [
+            "Light Bows",
+            "Longbows"
+          ]
+        },
+        "skill": {
+          "name": "Mighty Shot"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Weeping Peninsula",
+          "source": "Teardrop Scarab",
+          "details": "Found on the path from Limgrave towards Weeping Peninsula"
+        }
+      },
+      {
+        "name": "Through and Through",
+        "type": "Combat Skill",
+        "description": "Powerful archery skill using a greatbow held in an oblique stance. Ready the greatbow, then twist the bowstring to fire a mighty greatarrow that can penetrate through enemies.",
+        "compatibility": {
+          "weapon_types": ["Greatbows"]
+        },
+        "skill": {
+          "name": "Through and Through"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Volcano Manor",
+          "source": "Invisible Scarab",
+          "details": "Found just outside Volcano Manor in the Altus Plateau"
+        }
+      },
+      {
+        "name": "Barrage",
+        "type": "Combat Skill",
+        "description": "Archery skill using a bow held horizontally. Ready the bow, then fire off a rapid succession of shots faster than the eye can see.",
+        "compatibility": {
+          "weapon_types": ["Light Bows"]
+        },
+        "skill": {
+          "name": "Barrage"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Mt. Gelmir",
+          "source": "Teardrop Scarab",
+          "details": "Found in the narrow channel north of Seethewater River"
+        }
+      },
+      {
+        "name": "Sky Shot",
+        "type": "Combat Skill",
+        "description": "Archery skill performed from a low stance. Ready the bow, then fire an arrow high up into the air, arcing so as to strike the enemy from abose when it comes down.",
+        "compatibility": {
+          "weapon_types": [
+            "Light Bows",
+            "Longbows"
+          ]
+        },
+        "skill": {
+          "name": "Sky Shot"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Dragonbarrow",
+          "source": "Teardrop Scarab",
+          "details": "Found on the cliffs northwest of the Isolated Merchant's Shack"
+        }
+      },
+      {
+        "name": "Enchanted Shot",
+        "type": "Combat Skill",
+        "description": "A skill where a spiritual essence is gathered within the arrow, allowing it to fly faster than a regular shot arrow. It also changes its trajectory to follow the target.",
+        "compatibility": {
+          "weapon_types": [
+            "Light Bows",
+            "Longbows"
+          ]
+        },
+        "skill": {
+          "name": "Enchanted Shot"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Nokron, Eternal City",
+          "source": "Teardrop Beetle",
+          "details": "Found hiding behind a rock near a brazier"
+        }
+      },
+      {
+        "name": "Rain of Arrows",
+        "type": "Combat Skill",
+        "description": "Archery skill performed from a low stance. Ready the bow, then fire a burst of arrows into the sky to shower the enemy with projectiles",
+        "compatibility": {
+          "weapon_types": ["All Bows"]
+        },
+        "skill": {
+          "name": "Rain of Arrows"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Caelid",
+          "source": "Painting Reward",
+          "details": "Appears after finding the Redmane Painting location, down the cliffside behind the Minor Erdtree in Caelid"
+        }
+      },
+      {
+        "name": "Parry",
+        "type": "Combat Skill",
+        "description": "Use this skill in time with a foe's melee attack to deflect it and break that foe's stance. This provides an opening to perform a critical hit.",
+        "compatibility": {
+          "weapon_types": [
+            "Daggers",
+            "Curved Swords",
+            "Thrusting Swords",
+            "Fists",
+            "Claws",
+            "Small shields",
+            "Medium shields"
+          ]
+        },
+        "skill": {
+          "name": "Parry"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "600 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Golden Parry",
+        "type": "Combat Skill",
+        "description": "Perform an Erdtree incantation and swing the shield to deflect enemy attacks and break their stance. Effective even at a slight distance.",
+        "compatibility": {
+          "weapon_types": [
+            "Small shields",
+            "Medium shields"
+          ]
+        },
+        "skill": {
+          "name": "Golden Parry"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Capital Outskirts",
+          "source": "Teardrop Scarab",
+          "details": "Found in the Capital Outskirts"
+        }
+      },
+      {
+        "name": "Storm Wall",
+        "type": "Combat Skill",
+        "description": "Swing the shield to create a wall of storm winds in front of you, deflecting arrows and other such physical projectiles. Can also be used in the same way as a regular parry.",
+        "compatibility": {
+          "weapon_types": [
+            "Small shields",
+            "Medium shields"
+          ]
+        },
+        "skill": {
+          "name": "Storm Wall"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Stormhill",
+          "source": "Teardrop Scarab",
+          "details": "Found by falling down from the collapsed bridge north of Stormhill"
+        }
+      },
+      {
+        "name": "Shield Bash",
+        "type": "Combat Skill",
+        "description": "Brace behind shield before using bodyweight to ram foes while maintaining guarding stance. Weaker enemies will be shoved backwards, and can even be staggered.",
+        "compatibility": {
+          "weapon_types": ["Shields"]
+        },
+        "skill": {
+          "name": "Shield Bash"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Liurnia of the Lakes",
+          "source": "Teardrop Scarab",
+          "details": "Found under a bridge very close to East Gate Bridge Trestle site of grace"
+        }
+      },
+      {
+        "name": "Shield Crash",
+        "type": "Combat Skill",
+        "description": "Two-hand the shield and charge forwards while maintaining guard. Weaker enemies will be shoved backwards and can even be staggered. Hold to extend the duration of the charge forwards.",
+        "compatibility": {
+          "weapon_types": ["Shields"]
+        },
+        "skill": {
+          "name": "Shield Crash"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Altus Plateau",
+          "source": "Teardrop Scarab",
+          "details": "Found in the upper section of Lux Ruins"
+        }
+      },
+      {
+        "name": "Barricade Shield",
+        "type": "Combat Skill",
+        "description": "Focus your energy into the shield, temporarily hardening it to deflect greater blows.",
+        "compatibility": {
+          "weapon_types": ["Shields"]
+        },
+        "skill": {
+          "name": "Barricade Shield"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Weeping Peninsula",
+          "source": "Night's Cavalry",
+          "details": "Dropped by Night's Cavalry in Weeping Peninsula"
+        }
+      },
+      {
+        "name": "Thops's Barrier",
+        "type": "Combat Skill",
+        "description": "Erect a magical forcefield while swinging the shield to deflect sorceries and incantations. Can also be used in the same way as a regular parry.",
+        "compatibility": {
+          "weapon_types": [
+            "Small shields",
+            "Medium shields"
+          ]
+        },
+        "skill": {
+          "name": "Thops's Barrier"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Church of Irith",
+          "source": "Teardrop Scarab",
+          "details": "Appears after delivering the spare Academy Glintstone Key to Thops. Reload the area to spawn the scarab"
+        }
+      },
+      {
+        "name": "Carian Retaliation",
+        "type": "Combat Skill",
+        "description": "Dispels incoming sorceries and incantations, transforming the magic into retaliatory glintblades.",
+        "compatibility": {
+          "weapon_types": [
+            "Small shields",
+            "Medium shields"
+          ]
+        },
+        "skill": {
+          "name": "Carian Retaliation"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Caria Manor",
+          "source": "Ground Loot",
+          "details": "Found on a balcony above the Manor Lower Level bonfire, accessible by dropping from the southwestern side of Three Sisters"
+        }
+      },
+      {
+        "name": "No Skill",
+        "type": "Combat Skill",
+        "description": "This armament has no skill. If the armament in the other hand has a skill, that skill will be used instead.",
+        "compatibility": {
+          "weapon_types": [
+            "Shields",
+            "Torches"
+          ]
+        },
+        "skill": {
+          "name": "No Skill"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Warmaster's Shack",
+          "source": "Knight Bernahl",
+          "cost": "600 runes",
+          "alternative": "Twin Maiden Husks (after giving Bernahl's Bell Bearing)"
+        }
+      },
+      {
+        "name": "Lost Ashes of War",
+        "type": "Duplication",
+        "description": "Empty ashes of war, devoid of any memories of battle. Unable to apply any kind of affinity in their current state, but can be used by Smithing Master Hewg of the Roundtable Hold to recreate other ashes. Thus does the copy pass into becoming the genuine article.",
+        "compatibility": {
+          "weapon_types": ["None"]
+        },
+        "skill": {
+          "name": "None"
+        },
+        "affinity": "None",
+        "location": {
+          "primary": "Various Locations",
+          "source": "Multiple Sources",
+          "details": "Found across the Lands Between, including Ellac Greatbridge and Ruins of Unte"
+        }
+      },
+      {
+        "name": "Dryleaf Whirlwind",
+        "type": "Combat Skill",
+        "description": "This skill represents the pinnacle of Dane's footwork-based martial artistry. Rise into the air with a series of spinning kicks before crashing down with one final strike. Imbues kicking attacks with energy, increasing their range.",
+        "compatibility": {
+          "weapon_types": ["Hand-to-Hand Arts"]
+        },
+        "skill": {
+          "name": "Dryleaf Whirlwind"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Land of Shadow",
+          "source": "Ground Loot",
+          "details": "Found on the edge, besides a column and near a waterfall",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Aspects of the Crucible: Wings",
+        "type": "Combat Skill",
+        "description": "This skill originates from the lifeforms of the Crucible. Grow a golden pair of wings and take to the air before diving down at the foe, weapon first. A spinning attack is performed when wielding a twinblade",
+        "compatibility": {
+          "weapon_types": [
+            "Swords capable of thrusting",
+            "Polearms capable of thrusting"
+          ],
+          "exceptions": ["Colossal Weapons"]
+        },
+        "skill": {
+          "name": "Aspects of the Crucible: Wings"
+        },
+        "affinity": "Sacred",
+        "location": {
+          "primary": "Fort of Reprimand",
+          "source": "Boss Drop",
+          "details": "Dropped by Black Knight Edreed upon defeat",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Spinning Gravity Thrust",
+        "type": "Combat Skill",
+        "description": "A gravity skill honed by the disciples of an Alabaster Lord. Uses gravitational power to hang in the air before rotating the body and charging forward. An additional input allows for a follow-up attack.",
+        "compatibility": {
+          "weapon_types": [
+            "Large Swords",
+            "Colossal Swords"
+          ]
+        },
+        "skill": {
+          "name": "Spinning Gravity Thrust"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Weapon Extraction",
+          "details": "Comes equipped to the Sword lance, obtained by trading Remembrance of the Wild Boar Rider with Enia",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Palm Blast",
+        "type": "Combat Skill",
+        "description": "Skill of the spiritual seekers known as the Dryleaf Sect. Imbues hand with energy before using a palm strike to unleash an explosive blast. The already formidable power and impact can be bolstered by charging the attack.",
+        "compatibility": {
+          "weapon_types": ["Hand-to-Hand Arts"]
+        },
+        "skill": {
+          "name": "Palm Blast"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Moorth Ruins",
+          "source": "NPC Challenge",
+          "details": "Obtained by defeating the Dryleaf Dane Monk after using the 'May The Best Win' emote",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Piercing Throw",
+        "type": "Combat Skill",
+        "description": "Throw armament with a powerful spin, causing it to bore through foes. When using this skill, the armament can be thrown further than normal and also pierce through enemies",
+        "compatibility": {
+          "weapon_types": ["Throwing Blades"]
+        },
+        "skill": {
+          "name": "Piercing Throw"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Messmer",
+          "source": "Teardrop Scarab",
+          "details": "Found south of the Messmer soldier encampment, east of Giant Crayfish, between a group of Misbegotten on a crumbled column",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Scattershot Throw",
+        "type": "Combat Skill",
+        "description": "Employ smithing arts to conjure multiple copies of the armament in both hands and throw them all at once. Follow up with an additional input to throw again.",
+        "compatibility": {
+          "weapon_types": ["Throwing Blades"]
+        },
+        "skill": {
+          "name": "Scattershot Throw"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Taylew's Ruined Forge",
+          "source": "Teardrop Scarab",
+          "details": "Found just south of Taylew's Ruined Forge entrance, near a bridge, hanging high on a pillar",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Wall of Sparks",
+        "type": "Combat Skill",
+        "description": "Scatter perfumed powder in vicinity, producing intense sparks after a brief delay. Can be charged to increase power and range. The properties of the sparks are determined by the perfume bottle used.",
+        "compatibility": {
+          "weapon_types": ["Perfume Bottles"]
+        },
+        "skill": {
+          "name": "Wall of Sparks"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Shadow Keep",
+          "source": "Ground Loot",
+          "details": "Found on a corpse sitting on the rails, accessed by taking the left lift down from the Storehouse first-floor site of grace",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Rolling Sparks",
+        "type": "Combat Skill",
+        "description": "Scatter perfumed powder before you, triggering rolling explosions of deadly sparks. The properties of the sparks are determined by the perfume bottle used.",
+        "compatibility": {
+          "weapon_types": ["Perfume Bottles"]
+        },
+        "skill": {
+          "name": "Rolling Sparks"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Shadow Keep",
+          "source": "Teardrop Scarab",
+          "details": "Found in the camp to the southeast of Shadow Keep, flying high in the air near three perfumers",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Raging Beast",
+        "type": "Combat Skill",
+        "description": "Step with the swiftness of a beast, leap high, and slash foe from above. Initial step can be taken forward, backward, left, or right. Strong attack allows for a follow-up attack.",
+        "compatibility": {
+          "weapon_types": ["Beast Claws"]
+        },
+        "skill": {
+          "name": "Raging Beast"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Bridge Leading to the Village",
+          "source": "Teardrop Scarab",
+          "details": "Found by following the path north from the Bridge Leading to the Village Grace, then looking east for a teleporting Teardrop Scarab near the trees",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Savage Claws",
+        "type": "Combat Skill",
+        "description": "Pounce like a beast to viciously slash into foe with left and right claws.",
+        "compatibility": {
+          "weapon_types": ["Beast Claws"]
+        },
+        "skill": {
+          "name": "Savage Claws"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Gravesite Plains",
+          "source": "Boss Drop",
+          "details": "Drops from killing Logur the Beast Claw in the forest, southeast of the Gravesite Plain Site of Grace",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Blind Spot",
+        "type": "Combat Skill",
+        "description": "Leap into close quarters to take advantage of the enemy's blind spot and gore them from the side. Inputs determine which side you strike from. This attack slips below the opponent's guard.",
+        "compatibility": {
+          "weapon_types": ["Backhand Blades"]
+        },
+        "skill": {
+          "name": "Blind Spot"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Gravesite Plain",
+          "source": "Weapon Extraction",
+          "details": "Comes equipped to the Backhand blades found besides a coffin, in the Inquisitor enemies area",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Swift Slash",
+        "type": "Combat Skill",
+        "description": "A skill passed down amongst hornsent swordsmen. Take a swift forward step to slice through foes. This sharp strike also fires off a shearing vacuum. Can be charged to increase the skill's power and the distance of the forward step.",
+        "compatibility": {
+          "weapon_types": ["Backhand Blades"]
+        },
+        "skill": {
+          "name": "Swift Slash"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Shadowkeep",
+          "source": "Quest Reward",
+          "details": "Reward for siding with Hornsent during his fight with Leda at Shadowkeep",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Overhead Stance",
+        "type": "Combat Skill",
+        "description": "A skill that starts with the blade held high in a ready stance. Execute a normal attack from this stance to step forward and slash downwards, or a strong attack to deliver a series of downward slashes.",
+        "compatibility": {
+          "weapon_types": ["Great Katanas"]
+        },
+        "skill": {
+          "name": "Overhead Stance"
+        },
+        "affinity": "Keen",
+        "location": {
+          "primary": "Abandoned Ailing Village",
+          "source": "Weapon Extraction",
+          "details": "Comes equipped to the Great katana found next to the sleeping Ghostflame Dragon on the lake, west of the site of grace",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Wing Stance",
+        "type": "Combat Skill",
+        "description": "Calmly assume a right-sided stance. Normal attack triggers a rapid three-slash combination. Strong attack triggers a leaping thrust.",
+        "compatibility": {
+          "weapon_types": ["Light Greatswords"]
+        },
+        "skill": {
+          "name": "Wing Stance"
+        },
+        "affinity": "Quality",
+        "location": {
+          "primary": "Castle Lord's Chamber",
+          "source": "Treasure Chest",
+          "details": "Found in a tower accessed by jumping over the edge outside Castle Lord's Chamber Site of Grace and following the cliffside",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Blinkbolt",
+        "type": "Combat Skill",
+        "description": "From a low stance, the body is transformed into a bolt of lightning and charges straight ahead at fulgurous speed. Strong attack performs a lightning-charged leaping slash.",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Blinkbolt"
+        },
+        "affinity": "Lightning",
+        "location": {
+          "primary": "Fog Rift Catacombs",
+          "source": "Treasure Chest",
+          "details": "Found in a hidden room accessed via spike trap in the third spike dropper room with a sorcerer",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Flame Skewer",
+        "type": "Combat Skill",
+        "description": "Skill of Queelign of the Fire Knights. Enwreathe armament in flame and assume a low stance before skewering the enemy in a single motion. Strong attack unleashes a follow-up flame attack.",
+        "compatibility": {
+          "weapon_types": [
+            "Medium armaments capable of thrusting",
+            "Large armaments capable of thrusting"
+          ]
+        },
+        "skill": {
+          "name": "Flame Skewer"
+        },
+        "affinity": "Flame Art",
+        "location": {
+          "primary": "Land of Shadow",
+          "source": "NPC Invader",
+          "details": "Dropped by Fire Knight Queelign upon defeat",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Savage Lion's Claw",
+        "type": "Combat Skill",
+        "description": "Skill of the particularly brave, even among the Redmanes. Somersault forwards, striking foes with armament. An additional strike may be performed with an additional input.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Axes",
+            "Hammers"
+          ],
+          "exceptions": [
+            "Small armaments",
+            "Thrusting swords"
+          ]
+        },
+        "skill": {
+          "name": "Savage Lion's Claw"
+        },
+        "affinity": "Heavy",
+        "location": {
+          "primary": "Three-Path Cross",
+          "source": "Ground Loot",
+          "details": "Found in a small camp following the left wall path north from the Three-Path Cross site of grace",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Divine Beast Frost Stomp",
+        "type": "Combat Skill",
+        "description": "A skill which imitates the wrath of the divine beast's dance. Lift a leg up high and stamp it down with great force. Sends a powerful wave of frost straight out along the ground. Can be charged to increase power and range.",
+        "compatibility": {
+          "weapon_types": ["All melee weapons"]
+        },
+        "skill": {
+          "name": "Divine Beast Frost Stomp"
+        },
+        "affinity": "Cold",
+        "location": {
+          "primary": "Roundtable Hold",
+          "source": "Enia",
+          "details": "Obtained by trading Remembrance of the Dancing Lion",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Flame Spear",
+        "type": "Combat Skill",
+        "description": "Skill of Kood, captain of the Fire Knights. Ready weapon for a thrusting attack and unleash a spear of flame straight ahead. Charge the attack to increase damage dealt and distance travelled.",
+        "compatibility": {
+          "weapon_types": ["All armaments capable of thrusting"],
+          "exceptions": [
+            "Claws",
+            "Backhand blades"
+          ]
+        },
+        "skill": {
+          "name": "Flame Spear"
+        },
+        "affinity": "Flame Art",
+        "location": {
+          "primary": "Shadow Keep",
+          "source": "Enemy Drop",
+          "details": "Dropped by a Fire Knight on the sixth floor, found at the end of a bridge after climbing the moved statues",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Carian Sovereignty",
+        "type": "Combat Skill",
+        "description": "Skill passed down the Carian royal family. Transform blade into a magical greatsword and bring it down. Additional input follows up with a horizontal sweep. Charge either attack to enhance potency.",
+        "compatibility": {
+          "weapon_types": ["Swords"],
+          "exceptions": ["Colossal weapons"]
+        },
+        "skill": {
+          "name": "Carian Sovereignty"
+        },
+        "affinity": "Magic",
+        "location": {
+          "primary": "Cathedral of Manus Metyr",
+          "source": "Teardrop Scarab",
+          "details": "Found on the ceiling of a cave southwest from the cathedral, filled with glintslab fireflies",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Shriek of Sorrow",
+        "type": "Combat Skill",
+        "description": "Skill utilized by the downtrodden. Scream, causing nearby enemies to flinch, while also recalling deep-seated resentment, boosting attack power based on the amount of HP remaining. The lower the HP, the greater the effect",
+        "compatibility": {
+          "weapon_types": ["All melee armaments"]
+        },
+        "skill": {
+          "name": "Shriek of Sorrow"
+        },
+        "affinity": "Occult",
+        "location": {
+          "primary": "Main Plaza",
+          "source": "Ground Loot",
+          "details": "Found behind the great tree in the middle of the plaza where Fire Knight Queelign invades",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Ghostflame Call",
+        "type": "Combat Skill",
+        "description": "Thrust out armament to summon ghostflame. Follow up with a normal attack to set the ground ablaze with ghostflame, or a strong attack to trigger a massive explosion.",
+        "compatibility": {
+          "weapon_types": [
+            "Swords",
+            "Spears"
+          ],
+          "exceptions": [
+            "Small armaments",
+            "Twinblades",
+            "Backhand blades"
+          ]
+        },
+        "skill": {
+          "name": "Ghostflame Call"
+        },
+        "affinity": "Cold",
+        "location": {
+          "primary": "Land of Shadow",
+          "source": "Boss Drop",
+          "details": "Dropped by the Death Rite Bird",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "The Poison Flower Blooms Twice",
+        "type": "Combat Skill",
+        "description": "Conjures stingers of scarlet rot from below to stab the enemy. Landing a follow-up attack on a foe already inflicted with poison or rot deals massive damage in one fell swoop.",
+        "compatibility": {
+          "weapon_types": ["All Melee Armaments"]
+        },
+        "skill": {
+          "name": "The Poison Flower Blooms Twice"
+        },
+        "affinity": "Poison",
+        "location": {
+          "primary": "Land of Shadow",
+          "source": "Teardrop Scarab",
+          "details": "Found north of the shadowpothead location, across the river",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Igon's Drake Hunt",
+        "type": "Combat Skill",
+        "description": "Skill of Igon, drake warrior. Ready the bow before unleashing a twisted shot with a great bellow that considerably enhances its power.",
+        "compatibility": {
+          "weapon_types": ["Greatbows"]
+        },
+        "skill": {
+          "name": "Igon's Drake Hunt"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Gravesite Plain",
+          "source": "Weapon Extraction",
+          "details": "Can be obtained from Igon's Greatbow after defeating Igon in eastern Gravesite Plain, or by helping Igon defeat Bayle The Dread",
+          "dlc": "Shadow of the Erdtree"
+        }
+      },
+      {
+        "name": "Shield Strike",
+        "type": "Combat Skill",
+        "description": "A skill that uses the shield to attack. Repeated inputs allow for up to three follow-up attacks.",
+        "compatibility": {
+          "weapon_types": ["Shields"]
+        },
+        "skill": {
+          "name": "Shield Strike"
+        },
+        "affinity": "Standard",
+        "location": {
+          "primary": "Land of Shadow",
+          "source": "Weapon Extraction",
+          "details": "Found on Dueling Shield and Carian Thrusting Shield",
+          "dlc": "Shadow of the Erdtree"
+        }
+      }
+    ],
+    "metadata": {
+      "total_count": {
+        "base_game": 91,
+        "dlc": 25,
+        "total": 116
+      },
+      "usage_info": {
+        "requirements": "Whetstone Knife",
+        "application_locations": [
+          "Sites of Grace",
+          "Smithing Master Hewg at Roundtable Hold"
+        ],
+        "restrictions": [
+          "One skill per armament",
+          "Previous skills will be removed",
+          "Weapon type determines compatible skills",
+          "Special armaments cannot receive new skills"
+        ],
+        "features": [
+          "Can be repeatedly used without cost",
+          "No consumable nature unlike previous FromSoftware titles"
+        ]
+      }
+    }
+  }
