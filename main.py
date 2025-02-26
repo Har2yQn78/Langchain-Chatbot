@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from langserve import add_routes
 from redis import Redis
-from decouple import config, AutoConfig
+from decouple import AutoConfig
 import utils
 
 env_config = AutoConfig(search_path="/home/harry/Chatbot")

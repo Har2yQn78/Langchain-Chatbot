@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from langserve import add_routes
 import utils
+
 app = FastAPI()
 
 @app.get("/")

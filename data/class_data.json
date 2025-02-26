@@ -1,0 +1,326 @@
+{
+  "classes": [
+    {
+      "name": "Hero",
+      "description": "Hero is a starting Class in Elden Ring. The Hero has high Strength and Vigor with some arcane. It starts the game at level 7 with a battle axe and leather shield. The class only determines the starting stats and equipment, allowing players to freely change their build as the game progresses. The Hero is a Strength-based class that begins the game with an axe.",
+      "background": "A stalwart Hero, at home with a battleaxe, descended from a badlands chieftain.",
+      "level": 7,
+      "startingEquipment": {
+        "weapon": "Battle Axe",
+        "shield": "Large Leather Shield",
+        "armor": [
+          "Champion Headband",
+          "Champion Pauldron",
+          "Champion Bracers",
+          "Champion Gaiters"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 7,
+        "Vigor": 14,
+        "Dexterity": 9,
+        "Mind": 9,
+        "Intelligence": 7,
+        "Endurance": 12,
+        "Faith": 8,
+        "Strength": 16,
+        "Arcane": 11
+      },
+      "notes": "Replaces the 'Champion' of the Closed Network Test. Optimized for pure Strength builds with moderate Dexterity. Suitable for Strength, Strength/Intelligence, Pure Arcane, Strength/Arcane, and Strength/Dexterity builds. Additional tips include weapon recommendations and stat allocation strategies."
+    },
+    {
+      "name": "Bandit",
+      "description": "Bandit is a starting Class in Elden Ring. The Bandit has high Arcane and Dexterity. It starts the game at level 5 with a dagger, parrying shield, bow, and arrows. The class only determines the starting stats and equipment, with players free to adjust their build as they progress.",
+      "background": "A dangerous bandit who strikes for weak points and excels at ranged combat with bows.",
+      "level": 5,
+      "startingEquipment": {
+        "weapon": "Great Knife",
+        "bow": "Shortbow",
+        "arrows": "Bone Arrow (Fletched)",
+        "shield": "Buckler",
+        "armor": [
+          "Bandit Mask",
+          "Bandit Garb",
+          "Bandit Manchettes",
+          "Bandit Boots"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 5,
+        "Vigor": 10,
+        "Dexterity": 13,
+        "Mind": 11,
+        "Intelligence": 9,
+        "Endurance": 10,
+        "Faith": 8,
+        "Strength": 9,
+        "Arcane": 14
+      },
+      "notes": "Optimized for Dexterity/Arcane hybrid builds that need less than 12 Strength, making it ideal for a dedicated pure Arcane build with Reduvia. Comes equipped with a Buckler shield offering a unique parry skill. Recommended for veteran players due to the initial stat distribution and equipment."
+    },
+    {
+      "name": "Samurai",
+      "description": "Samurai is a starting Class in Elden Ring. The Samurai has high Dexterity, Medium strength, endurance, mind and vigor. It starts the game level 9 with a katana, bow, arrows (flaming arrows too!) and a shield. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle. There are 10 Classes in Elden Ring that the player can begin the game with.",
+      "background": "A capable fighter from the distant land of reeds. Handy with Katana and Longbows.",
+      "level": 9,
+      "startingEquipment": {
+        "weapon": "Uchigatana",
+        "shield": "",
+        "armor": [
+          "Land of Reeds Helm",
+          "Land of Reeds Armor (Altered)",
+          "Land of Reeds Gauntlets",
+          "Land of Reeds Greaves"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 9,
+        "Vigor": 12,
+        "Dexterity": 15,
+        "Mind": 11,
+        "Intelligence": 9,
+        "Endurance": 13,
+        "Faith": 8,
+        "Strength": 12,
+        "Arcane": 8
+      },
+      "notes": "Unsheathe is an extremely powerful ability. Learning to use it often makes this Class much more powerful.\nThin out enemies with Arrows and then finish them with the Uchigatana.\nA second copy of the Uchigatana can be found inside the Deathtouched Catacombs in Stormhill, Limgrave. This allows the Samurai class to dual wield two Uchigatanas almost immediately at early game, allowing one to rapidly inflict Bleed buildup at ease.\nThe best stat spread for pure Dexterity builds and tied with Vagabond for Strength/Dexterity hybrid builds. Also ideal for Dexterity/Arcane hybrid builds requiring 11 or more Strength, Bandit is better for 10 or less Strength.\nBy using Marika's Scarseal (which adds up 3 levels of Intelligence and Faith at the cost of increased damage taken), the Samurai class can reach the minimum Intelligence and Faith requirement of utilizing Smithscript weapons, a type of throwable weapons which all have 11 Intelligence and 11 Faith requirements.\nRecommended for New Players and Veterans."
+    },
+    {
+      "name": "Astrologer",
+      "description": "Astrologer is a starting Class in Elden Ring. The Astrologer has high Intelligence and Mind and some Dexterity. It starts the game level 6, with a Staff, a sword and small shield. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle. There are 10 Classes in Elden Ring that the player can begin the game with.",
+      "background": "A scholar who reads fate in the stars. Heir to the school of glintstone sorcery",
+      "level": 6,
+      "startingEquipment": {
+        "weapon": "Astrologer's Staff",
+        "shield": "Scripture Wooden Shield",
+        "armor": [
+          "Astrologer Hood",
+          "Astrologer Robe",
+          "Astrologer Gloves",
+          "Astrologer Trousers"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 6,
+        "Vigor": 9,
+        "Dexterity": 12,
+        "Mind": 15,
+        "Intelligence": 16,
+        "Endurance": 9,
+        "Faith": 7,
+        "Strength": 8,
+        "Arcane": 9
+      },
+      "notes": "A very good mage setup that's easy to upgrade quickly due to access to spells and a good Staff early on. Excellent for new players and veterans alike.\nThis class' stats are optimized for:\nPure intelligence builds that do not plan to use melee weapons.\nHybrid builds that include either of the other two casting stats - or both.\nDexterity/Intelligence hybrid builds that require less than 10 Strength, after which Prisoner becomes optimal.\nDedicated Intelligence/Faith build that primarily utilizes Sword of Night and Flame. Compared to the Confessor, Astrologer requires 4 more Strength in order to meet the Strength requirement of the weapon.\nThis class replaces the Network Test's \"Enchanted Knight\" as a starter mage choice\nHas the lowest amount of Vigor out of the other 9 classes. Players who pick Astrologer must know when to pick their battles and use their ranged spells to their advantage."
+    },
+    {
+      "name": "Warrior",
+      "description": "Warrior is a starting Class in Elden Ring. The Warrior has High Dex and medium physical stats. It starts the game level 8, with two scimitars and a light shield. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle.",
+      "background": "A twinblade wielding warrior from a nomadic tribe. An origin of exceptional technique",
+      "level": 8,
+      "startingEquipment": {
+        "weapon": "Scimitar",
+        "shield": "Riveted Wooden Shield",
+        "armor": [
+          "Blue Cloth Cowl",
+          "Blue Cloth Vest",
+          "Warrior Gauntlets",
+          "Warrior Greaves"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 8,
+        "Vigor": 11,
+        "Dexterity": 16,
+        "Mind": 12,
+        "Intelligence": 10,
+        "Endurance": 11,
+        "Faith": 8,
+        "Strength": 10,
+        "Arcane": 9
+      },
+      "notes": "The Warrior starts with two Scimitars. When holding both in either hand, press L1 to attack with both. These L1 attacks deal more damage than R1 and applies status effects (Poison, Bleed, Cold) at a faster rate. This starting class offers a way to practice and get accustomed to power-stanced curved swords, which is extremely powerful when fully developed.\nOther Notes, Tips, and Trivia go here"
+    },
+    {
+      "name": "Prisoner",
+      "description": "Prisoner is a starting Class in Elden Ring. The Prisoner has high Intelligence and Dexterity, and medium physical stats. It starts the game level 9, with an estoc, a staff and shield. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle. There are 10 Classes in Elden Ring that the player can begin the game with.",
+      "background": "A prisoner bound in an iron mask. Studied in glintstone sorcery, having lived among the elite prior to sentencing.",
+      "level": 9,
+      "startingEquipment": {
+        "weapon": "Glintstone Staff",
+        "shield": "Rift Shield",
+        "armor": [
+          "Prisoner Iron Mask",
+          "",
+          "Prisoner Clothing",
+          "Prisoner Trousers"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 9,
+        "Vigor": 11,
+        "Dexterity": 14,
+        "Mind": 12,
+        "Intelligence": 14,
+        "Endurance": 11,
+        "Faith": 6,
+        "Strength": 11,
+        "Arcane": 9
+      },
+      "notes": "This class' stats are optimized for:\nStrength/Intelligence hybrid builds where Dexterity does not need raising any higher. If more Dexterity is required, it becomes tied Samurai.\nDexterity/Intelligence hybrid builds where required Strength is between 10 and 12. Any lower, Astrologer becomes optimal. Any higher, it ties with Samurai.\nThe design seems influenced by Griffith/Femto from the Berserk manga and anime series.\nHas the lowest Faith of all the starting classes.\nThe best pick for Dexterity/Intelligence hybrid builds demanding 11 or more Strength. Astrologer outperforms at 10 strength or less.\nThough a more advanced playstyle, it's hard to argue that this Class has an exceptional loadout and stat spread. Not recommended for new players, but will shine in the hands of a Souls veteran.\nA good start for Dex + Int builds."
+    },
+    {
+      "name": "Confessor",
+      "description": "Confessor is a starting Class in Elden Ring. The Confessor has high Faith and medium physical stats. It starts the game at level 10 with a broadsword, a medium shield and a finger seal. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle. There are 10 Classes in Elden Ring that the player can begin the game with.",
+      "background": "A church spy adept at covert operations. Equally adept with a sword as they are with incantations",
+      "level": 10,
+      "startingEquipment": {
+        "weapon": "Broadsword",
+        "shield": "Blue Crest Heater Shield",
+        "armor": [
+          "Confessor Hood",
+          "Confessor Armor",
+          "Confessor Gloves",
+          "Confessor Boots"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 10,
+        "Vigor": 10,
+        "Dexterity": 12,
+        "Mind": 13,
+        "Intelligence": 9,
+        "Endurance": 10,
+        "Faith": 14,
+        "Strength": 12,
+        "Arcane": 9
+      },
+      "notes": "Although designed to be a mix of combat and stealth, this Class can be seen as the defacto \"Paladin\" class. This one sets players up with a 100% Physical Damage reduction Shield, as well as good Faith for Incantations.\nWhile the stats of this class indicate it is the best choice for a hybrid build between Faith and Strength/Dexterity, there is actually no build where Confessor is the most optimal choice, and in many instances is actually worse than Wretch due to the thin distribution of points across Strength, Dexterity, Faith and Arcane causing too many wasted points. Vagabond is often the better pick for a Strength/Faith build, while Prophet is better for Dexterity/Faith.\nIt can be used for an Intelligence/Faith build that primarily utilizes Sword of Night and Flame, since the class has already met the Strength and Dexterity requirements of the weapon. However, Astrologer is equally efficient for this build.\nNotes, Tips, and Trivia go here\nLeveling Up the Elden Ring Confessor class focuses on Dex and Faith, making you a hybrid Caster. See our Builds for detailed ideas"
+    },
+    {
+      "name": "Wretch",
+      "description": "Wretch is a starting Class in Elden Ring. The Wretch is the “deprived” of the game. It starts at level 1 with 10 on all stats and just a club for weapons. It is the weakest starting Class in Elden Ring, and should be selected by those who want an added challenge in the earlier parts of the game. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle.",
+      "background": "As poor, purposeless and naked as the day they were born. A nice club is all they have.",
+      "level": 1,
+      "startingEquipment": {
+        "weapon": "Club",
+        "shield": "",
+        "armor": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 1,
+        "Vigor": 10,
+        "Dexterity": 10,
+        "Mind": 10,
+        "Intelligence": 10,
+        "Endurance": 10,
+        "Faith": 10,
+        "Strength": 10,
+        "Arcane": 10
+      },
+      "notes": "Due to it's lack of starting equipment, this Class is best recommended for experienced Souls players, or for players that are looking for more challenge\nAlthough the Wretch is the least optimized for any one build, the lowest starting level and evenly distributed stats make them ideal for players new to PvP wanting to dabble in different builds since they can respec into any other build and be fairly efficient at it. Significantly easier than going through the game with an entirely different starting class just to try a new build.\nSince start of the game does not have any non-optional boss, starting with this class is easier than in previous games.\nYou can get your first armor set by farming Godrick soldiers near Groveside cave entrance.\nNotes, Tips, and Trivia go here"
+    },
+    {
+      "name": "Vagabond",
+      "description": "Vagabond is a starting Class in Elden Ring. The Vagabond has high Vigor, Strength and Dexterity. It starts at level 9, with a sword, shield and halberd so possibly comparable to the Knight class in previous games. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle. There are 10 Classes in Elden Ring that the player can begin the game with.",
+      "background": "A knight exiled from their homeland to wander. A solid, armor-clad origin.",
+      "level": 9,
+      "startingEquipment": {
+        "weapon": "Longsword",
+        "shield": "Heater Shield",
+        "armor": [
+          "Vagabond Knight Helm",
+          "Vagabond Knight Armor",
+          "Vagabond Knight Gauntlets",
+          "Vagabond Knight Greaves"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 9,
+        "Vigor": 15,
+        "Dexterity": 13,
+        "Mind": 10,
+        "Intelligence": 9,
+        "Endurance": 11,
+        "Faith": 9,
+        "Strength": 14,
+        "Arcane": 7
+      },
+      "notes": "A tanky Class with good Stats and a 100% Physical Damage reduction Shield allowing players a sizeable advantage over some other Classes. Great for new players and veterans that don't plan to use Spells.\nThis class' stats are optimal for:\nStrength/Dexterity quality builds, ties with Hero if you wish to minimize mind investment and ties with Samurai if you desire to invest in mind.\nQuality build weapons that scale with Strength and Dexterity evenly include Axe of Godrick, Axe of Godfrey, Dragon Halberd, Dragon-Hunter's Great Katana, Dragon Greatclaw, Dragonclaw Shield and Ghiza's Wheel.\nAny and all Strength/Faith or Strength/Int hybrid builds that do not require Arcane. \nHas the lowest Arcane stat of all the classes.\nThe Vagabond is the only starting class that starts off with a fat roll (70% weight). It's advised that players un-equip the some equipment like the Halberd or some armor pieces so they can obtain a medium roll at the start, or level up their Endurance for more equip load.\nBy investing 2 levels onto Intelligence and 2 levels to Faith, or by using Marika's Scarseal (which adds up 3 levels of Intelligence and Faith at the cost of increased damage taken), the Vagabond class can reach the minimum Intelligence and Faith requirement of utilizing Smithscript weapons, a type of throwable weapons which all have 11 Intelligence and 11 Faith requirements."
+    },
+    {
+      "name": "Prophet",
+      "description": "Prophet is a starting Class in Elden Ring. The Prophet has high Faith and mind and some arcane and strength. It starts level 7, with a spear, a finger seal and a small shield. The Classes only determine the starting Stats and Equipment of the player, but as the game progresses, players can freely change their build to their preferred playstyle.",
+      "background": "A seer ostracized for inauspicious prophecies. Well versed in healing incantations",
+      "level": 7,
+      "startingEquipment": {
+        "weapon": "Short Spear",
+        "shield": "Rickety Shield",
+        "armor": [
+          "Prophet Blindfold",
+          "",
+          "Prophet Robe",
+          "Prophet Trousers"
+        ]
+      },
+      "startingItems": [
+        "Memory of Grace",
+        "Player Choice of Keepsake"
+      ],
+      "stats": {
+        "Rune Level": 7,
+        "Vigor": 10,
+        "Dexterity": 10,
+        "Mind": 14,
+        "Intelligence": 7,
+        "Endurance": 8,
+        "Faith": 16,
+        "Strength": 11,
+        "Arcane": 10
+      },
+      "notes": "This Class is best suited for players that want to focus on Incantations. While Catch Flame is a good spell, you might run out of mana during the early parts of the game.\nBest for pure Faith builds and Dexterity/Faith and Faith/Arcane hybrid builds. Also ideal for Strength/Faith hybrid builds at 11 or less dexterity but outperformed by Vagabond at 12 or more.\nOther notes and player tips go here"
+    }
+  ]
+}
