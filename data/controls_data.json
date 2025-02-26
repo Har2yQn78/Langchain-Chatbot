@@ -1,0 +1,223 @@
+{
+    "controls": [
+      {
+        "platform": "PS5",
+        "description": "Controls for Elden Ring on PlayStation 5 showcase information regarding the input mechanisms for the character's movement, combat, and interactions.",
+        "steedControls": {
+          "summon": "Equip Spectral Steed Whistle in quickslots and press Square",
+          "dismount": "Press L3 or select the Spectral Steel Whistle again",
+          "alternative": "Place in pouch slots configurable in the in-game menu"
+        },
+        "menuNavigation": {
+          "mainMenu": "Press the indicated back button to return to main menu from any submenu"
+        },
+        "standardControls": {
+          "movement": {
+            "walk": "Left stick",
+            "camera": "Right stick",
+            "crouch": "L3",
+            "jump": "X",
+            "dodge": "Circle (Backstep / Roll / Dash)"
+          },
+          "combat": {
+            "leftHandArmament": "← (Switch)",
+            "rightHandArmament": "→ (Switch)",
+            "spellSwitch": "↑ (Switch sorcery/incantation)",
+            "itemSwitch": "↓ (Switch item)",
+            "guard": "L1 (with LH Armament)",
+            "skill": "L2",
+            "attack": "R1 (RH & Two-Handed)",
+            "strongAttack": "R2 (RH & Two-Handed)",
+            "chargeAttack": "Press and hold R2",
+            "targetLock": "R3 (Reset Camera / Lock-On / Remove Target)",
+            "twoHandedLeft": "Hold Triangle + L1 or L2",
+            "twoHandedRight": "Hold Triangle + R1 or R2"
+          },
+          "actions": {
+            "useItem": "Square",
+            "interact": "Triangle (Examine, Open, etc.)",
+            "quickSave": "Hold Triangle + directional"
+          },
+          "menu": {
+            "mainMenu": "Options button",
+            "map": "Touchpad button"
+          }
+        },
+        "mountedControls": {
+          "movement": {
+            "ride": "Left stick",
+            "camera": "Right stick",
+            "dismount": "L3",
+            "dash": "Circle",
+            "jump": "X",
+            "doubleJump": "Press X twice"
+          },
+          "combat": {
+            "leftAttack": "L1 (normal attack)",
+            "leftStrongAttack": "L2",
+            "rightAttack": "R1 (normal attack)",
+            "rightStrongAttack": "R2",
+            "chargeAttack": "Press and hold L2 or R2",
+            "targetLock": "R3"
+          },
+          "actions": {
+            "useItem": "Square",
+            "interact": "Triangle",
+            "hud": "Triangle"
+          },
+          "weaponSwitch": {
+            "leftHand": "Hold Triangle + L1 or L2",
+            "rightHand": "Hold Triangle + R1 or R2"
+          }
+        }
+      },
+      {
+        "platform": "Xbox",
+        "description": "Controls for Elden Ring on Xbox showcase information regarding the input mechanisms for the character's movement, combat, and interactions.",
+        "steedControls": {
+          "summon": "Equip Spectral Steed Whistle in quickslots and press X",
+          "dismount": "Press L or select the Spectral Steel Whistle again",
+          "alternative": "Place in pouch slots configurable in the in-game menu"
+        },
+        "menuNavigation": {
+          "mainMenu": "Press the indicated back button to return to main menu from any submenu"
+        },
+        "standardControls": {
+          "movement": {
+            "walk": "Left stick",
+            "camera": "Right stick",
+            "crouch": "L",
+            "jump": "A",
+            "dodge": "B (Backstep / Roll / Dash)"
+          },
+          "combat": {
+            "leftHandArmament": "← (Switch)",
+            "rightHandArmament": "→ (Switch)",
+            "spellSwitch": "↑ (Switch sorcery/incantation)",
+            "itemSwitch": "↓ (Switch item)",
+            "guard": "LB (with LH Armament)",
+            "skill": "LT",
+            "attack": "RB (RH & Two-Handed)",
+            "strongAttack": "RT (RH & Two-Handed)",
+            "chargeAttack": "Press and hold RT",
+            "targetLock": "R (Reset Camera / Lock-On / Remove Target)",
+            "twoHandedLeft": "Hold Y + LB or LT",
+            "twoHandedRight": "Hold Y + RB or RT"
+          },
+          "actions": {
+            "useItem": "X",
+            "interact": "Y (Examine, Open, etc.)",
+            "quickSave": "Hold Y + directional"
+          },
+          "menu": {
+            "mainMenu": "Menu button",
+            "map": "View button"
+          }
+        },
+        "mountedControls": {
+          "movement": {
+            "ride": "Left stick",
+            "camera": "Right stick",
+            "dismount": "L",
+            "dash": "B",
+            "jump": "A",
+            "doubleJump": "Press A twice"
+          },
+          "combat": {
+            "leftAttack": "LB (normal attack)",
+            "leftStrongAttack": "LT",
+            "rightAttack": "RB (normal attack)",
+            "rightStrongAttack": "RT",
+            "chargeAttack": "Press and hold LT or RT",
+            "targetLock": "R"
+          },
+          "actions": {
+            "useItem": "X",
+            "interact": "Y",
+            "hud": "Y"
+          },
+          "weaponSwitch": {
+            "leftHand": "Hold Y + LB or LT",
+            "rightHand": "Hold Y + RB or RT"
+          }
+        }
+      },
+      {
+        "platform": "PC",
+        "description": "Controls for Elden Ring on PC showcase information regarding the input mechanisms for the character's movement, combat, and interactions.",
+        "steedControls": {
+          "summon": "Equip Spectral Steed Whistle in quickslots and press R",
+          "dismount": "Press X or select the Spectral Steel Whistle again",
+          "alternative": "Place in pouch slots configurable in the in-game menu"
+        },
+        "menuNavigation": {
+          "mainMenu": "Press Q to return to main menu from any submenu",
+          "help": "G",
+          "back": "Q",
+          "toggleView": "Y",
+          "sortItems": "T or Right Click"
+        },
+        "standardControls": {
+          "movement": {
+            "forward": "W",
+            "backward": "S",
+            "left": "A",
+            "right": "D",
+            "walk": "Alt",
+            "crouch": "X",
+            "jump": "F",
+            "dodge": "Space (Backstep / Roll / Dash)"
+          },
+          "combat": {
+            "attack": "Left Click (RH & Two-Handed)",
+            "strongAttack": "Shift + Left Click",
+            "guard": "Right Click (LH Armament)",
+            "skill": "Shift + Right Click",
+            "targetLock": "Q or Middle-Click",
+            "chargeAttack": "Hold Left Click"
+          },
+          "actions": {
+            "useItem": "R",
+            "interact": "E",
+            "removeItem": "R"
+          },
+          "weaponSwitch": {
+            "spellSwitch": "Arrow Up",
+            "itemSwitch": "Arrow Down",
+            "rightHandSwitch": "Right Arrow or Shift + Middle-Click",
+            "leftHandSwitch": "Left Arrow or Shift + Middle-Click",
+            "cycleEquipment": "Z or X"
+          },
+          "menu": {
+            "mainMenu": "Esc",
+            "map": "G",
+            "detailedView": "Y"
+          }
+        },
+        "mountedControls": {
+          "movement": {
+            "forward": "W",
+            "backward": "S",
+            "left": "A",
+            "right": "D",
+            "dismount": "X",
+            "dash": "Space",
+            "jump": "F",
+            "doubleJump": "Press F twice"
+          },
+          "combat": {
+            "leftAttack": "Right Click (normal attack)",
+            "leftStrongAttack": "Shift + Right Click",
+            "rightAttack": "Left Click (normal attack)",
+            "rightStrongAttack": "Shift + Left Click",
+            "chargeAttack": "Hold Right Click or Left Click",
+            "targetLock": "Q or Middle-Click"
+          },
+          "actions": {
+            "useItem": "R",
+            "interact": "E"
+          }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,1007 @@
+{
+    "spiritAshes": {
+      "description": "Spirit Ashes in Elden Ring are companions summoned by the Spirit Calling Bell to aid in Combat. They can be upgraded through Roderika and with the new Revered Spirit Ashes system in Shadow of the Erdtree DLC.",
+      "generalInfo": {
+        "totalCount": 84,
+        "baseGameCount": 64,
+        "dlcCount": 20,
+        "requirements": {
+          "item": "Spirit Calling Bell",
+          "location": "Church of Elleh",
+          "npc": "Renna"
+        },
+        "summoningRules": {
+          "conditions": [
+            "Must be near a Rebirth Monument",
+            "Cannot be used in Multiplayer Coop",
+            "Cannot resummon in same area until resting at Sites of Grace",
+            "Cannot be active with Furlcalling Finger Remedy effects",
+            "One summon per encounter"
+          ]
+        }
+      },
+      "legendaryAshes": [
+        "Lhutel the Headless",
+        "Black Knife Tiche",
+        "Redmane Knight Ogha",
+        "Mimic Tear Ashes",
+        "Ancient Dragon Knight Kristoff Ashes",
+        "Cleanrot Knight Finlay Ashes"
+      ],
+      "allAshes": [
+        {
+          "name": "Mimic Tear",
+          "tier": "S+",
+          "soloDamage": "0-100",
+          "summonCount": 1,
+          "cost": {
+            "type": "HP",
+            "amount": 660
+          },
+          "source": "Base game",
+          "notes": "Elite. Mimics the summoner's loadout (inc. spells + consumables), unlimited FP"
+        },
+        {
+          "name": "Black Knife Tiche",
+          "tier": "S+",
+          "soloDamage": 89,
+          "summonCount": 1,
+          "cost": {
+            "type": "FP",
+            "amount": 132
+          },
+          "source": "Base game",
+          "notes": "Elite. Melee, Highly mobile and survivable, Range applies Destined Death"
+        },
+        {
+          "name": "Dung Eater Puppet",
+          "tier": "S+",
+          "soloDamage": 77,
+          "summonCount": 1,
+          "cost": {
+            "type": "FP",
+            "amount": 118
+          },
+          "source": "Base game",
+          "notes": "Elite. Bleed Melee, AoE Enemy Defense and Status Resistance Debuff, Shoot Wraiths at Range and Tanky"
+        },
+        {
+          "name": "Jolán and Anna",
+          "tier": "S",
+          "soloDamage": 90,
+          "summonCount": 2,
+          "cost": {
+            "type": "FP",
+            "amount": 144
+          },
+          "source": "Shadow of the Erdtree DLC",
+          "notes": "Elite. Bleed Melee, 1 Range. Very strong Bleed and pressure. Expensive FP Cost"
+        }
+    ,{
+            "name": "Latenna the Albinauric",
+            "tier": "S",
+            "soloDamage": 12,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 74
+            },
+            "source": "Base game",
+            "notes": "Elite. Magic Range, Extremely high DPS and range but immobile. Low HP"
+          },
+          {
+            "name": "Omenkiller Rollo",
+            "tier": "S",
+            "soloDamage": 57,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 113
+            },
+            "source": "Base game",
+            "notes": "Elite. Fire AoE, Bleed Melee, High damage and pressure, Tanky"
+          },
+          {
+            "name": "Stormhawk Deenh",
+            "tier": "S-",
+            "soloDamage": 38,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 47
+            },
+            "source": "Base game",
+            "notes": "Elite. Buffs in an AoE immediately upon summoning as well as periodically after, Flying, Highly mobile and great distraction"
+          },
+
+          {
+            "name": "Inquisitor Ashes",
+            "tier": "S-",
+            "soloDamage": 9,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 93
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Melee, Fire Range, 1 Supportive with unlimited AoE healing. 1 Offensive with a self-buff for more damage"
+          },
+          {
+            "name": "Ancient Dragon Florissax",
+            "tier": "S-",
+            "soloDamage": 35,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 85
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Casts Dragonbolt of Florissax upon summon. Lightning Melee and Range. Dragon Incantation Melee with High Stagger. Supportive type, follows you"
+          },
+          {
+            "name": "Perfumer Tricia",
+            "tier": "S-",
+            "soloDamage": 1,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 78
+            },
+            "source": "Base game",
+            "notes": "Elite. Shield and Buff for Summoner, Fire Range and Melee, Inconsistent damage but high sustain/buff potential"
+          },
+          {
+            "name": "Finger Maiden Therolina Puppet",
+            "tier": "S-",
+            "soloDamage": 2,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 82
+            },
+            "source": "Base game",
+            "notes": "Elite. AoE Heal, Range, Low damage. Sustain type summon"
+          },
+          {
+            "name": "Ancient Dragon Knight Kristoff",
+            "tier": "A+",
+            "soloDamage": 71,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 108
+            },
+            "source": "Base game",
+            "notes": "Elite. Shield. Melee and Lightning Range, Extremely Tanky. Uses Lightning to deal damage from afar and buff self. Uses Rejection in Melee"
+          },
+          {
+            "name": "Blackflame Monk Amon",
+            "tier": "A+",
+            "soloDamage": 64,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 115
+            },
+            "source": "Base game",
+            "notes": "Elite. Fire Melee and Close Ranged Magic. Uses Black Flame magic in attacks, doing %HP damage. Strong AoE"
+          },
+          {
+            "name": "Demi-Human Swordsman Yosh",
+            "tier": "A+",
+            "soloDamage": 51,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 129
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Melee, Highly Mobile, High Damage with great Pressure"
+          },
+          {
+            "name": "Divine Bird Warrior Ornis",
+            "tier": "A+",
+            "soloDamage": 54,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 131
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Melee, Holy Range. High pressure and Nigh Invulnerability during special attack"
+          },
+          {
+            "name": "Banished Knight Oleg",
+            "tier": "A+",
+            "soloDamage": 59,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 100
+            },
+            "source": "Base game",
+            "notes": "Elite. Good mobility, Tanky. High Stagger damage and pressure"
+          },
+          {
+            "name": "Dolores the Sleeping Arrow Puppet",
+            "tier": "A+",
+            "soloDamage": 17,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 87
+            },
+            "source": "Base game",
+            "notes": "Elite. Inflicts Sleep, Range, Fantastic crowd control"
+          },
+          {
+            "name": "Messmer Soldier Ashes",
+            "tier": "A",
+            "soloDamage": 80,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 72
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Melee. High Stagger. Strong Combo Potential. Never allow themselves to become separated"
+          },
+          {
+            "name": "Nightmaiden & Swordstress Puppets",
+            "tier": "A",
+            "soloDamage": 79,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 97
+            },
+            "source": "Base game",
+            "notes": "Elite, Long-Range Melee. Good mobility, great crowd control. Uses Sleep Magic"
+          },
+          {
+            "name": "Redmane Knight Ogha",
+            "tier": "A",
+            "soloDamage": 33,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 106
+            },
+            "source": "Base game",
+            "notes": "Elite. Ranged Knockback. Instantly aggressive. Swaps to Shield with Melee when Enemy is close. Will react to the player's War Cry skill uniquely"
+          },
+          {
+            "name": "Bigmouth Imp Ashes",
+            "tier": "A",
+            "soloDamage": 20,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 50
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Explosive Range with Special High Knockback. Weak Melee. Low HP. (Special Knockback seems to affect some bosses)"
+          },
+          {
+            "name": "Nepheli Loux Puppet",
+            "tier": "A",
+            "soloDamage": 77,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 90
+            },
+            "source": "Base game",
+            "notes": "Elite. Melee. High poise damage. Uses Lightning spinning attacks to imbue weapons"
+          },
+          {
+            "name": "Horned Warrior Ashes",
+            "tier": "A",
+            "soloDamage": 52,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 112
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Melee, High Stagger, Strong Knockback with Pressure, Great vs. Smaller and Humanoid targets"
+          },
+          {
+            "name": "Azula Beastmen",
+            "tier": "A",
+            "soloDamage": 78,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 102
+            },
+            "source": "Base game",
+            "notes": "Lightning Melee. Very high damage, not much survivability. Reckless Glass Cannons"
+          },
+          {
+            "name": "Bloodhound Knight Floh",
+            "tier": "A",
+            "soloDamage": 19,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 95
+            },
+            "source": "Base game",
+            "notes": "Elite. Bleed Melee. Instantly Aggressive. Highly mobile, high DPS"
+          },
+          {
+            "name": "Black Knight Commander Andreas",
+            "tier": "A-",
+            "soloDamage": 44,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 111
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Holy Melee, Holy Range. Very Tanky, High Stagger with Guard Counters"
+          },
+          {
+            "name": "Mausoleum Soldiers",
+            "tier": "A-",
+            "soloDamage": 70,
+            "summonCount": 5,
+            "cost": {
+              "type": "FP",
+              "amount": 75
+            },
+            "source": "Base game",
+            "notes": "3 Shields. 2 Greatswords. Extreme survivability, teleportation, Not very aggressive but still good Damage"
+          },
+          {
+            "name": "Swordhand of Night Jolán",
+            "tier": "A-",
+            "soloDamage": 37,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 86
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Bleed Melee. Strong Special attack"
+          },
+          {
+            "name": "Curseblade Meera",
+            "tier": "A-",
+            "soloDamage": 34,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 91
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Bleed Melee, Range, Mobile"
+          },
+          {
+            "name": "Fire Knight Queelign",
+            "tier": "A-",
+            "soloDamage": 40,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 123
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Fire Melee and Range. Instantly Aggressive"
+          },
+          {
+            "name": "Banished Knight Engvall",
+            "tier": "A-",
+            "soloDamage": 45,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 100
+            },
+            "source": "Base game",
+            "notes": "Elite. Fairly aggressive, tanky, melee range AoE crowd control, and can interrupt/pin small single targets"
+          },
+          {
+            "name": "Cleanrot Knight Finlay",
+            "tier": "A-",
+            "soloDamage": "25-55",
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 127
+            },
+            "source": "Base game",
+            "notes": "Elite. Bleed Melee, Holy Range with small Rot AoE. Decently mobile with high DPS. Buffs you with hp/s + Fire Resist. Expensive summon cost"
+          },
+          {
+            "name": "Black Knight Captain Huw",
+            "tier": "B+",
+            "soloDamage": 27,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 106
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Holy Melee, Mobile, Tanky"
+          },
+          {
+            "name": "Radahn Soldier",
+            "tier": "B+",
+            "soloDamage": 71,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 71
+            },
+            "source": "Base game",
+            "notes": "Fire Melee and Ranged. Great damage. Instantly Aggressive. Can work as a light source"
+          },
+          {
+            "name": "Avionette Soldier",
+            "tier": "B+",
+            "soloDamage": 47,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 67
+            },
+            "source": "Base game",
+            "notes": "Bleed Melee, Fire Ranged. Chance to Malfunction when damaged"
+          },
+          {
+            "name": "Kaiden Sellsword",
+            "tier": "B+",
+            "soloDamage": 32,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 88
+            },
+            "source": "Base game",
+            "notes": "Melee, High Pressure, Reckless. Self-buffs, similar to the enemy variant"
+          },
+          {
+            "name": "Bloodfiend Hexer's Ashes",
+            "tier": "B+",
+            "soloDamage": 6,
+            "summonCount": 1,
+            "cost": {
+              "type": "HP",
+              "amount": 500
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "AoE Bleed Ranged, Normal and Bleed Melee when in Danger. Costs HP to summon"
+          },
+          {
+            "name": "Depraved Perfumer Carmaan",
+            "tier": "B+",
+            "soloDamage": "7-25",
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 124
+            },
+            "source": "Base game",
+            "notes": "Elite. Fire Mid-Range and Melee. Poison Aoe cloud attack. Self buffs. Can heal self once for 50% max HP"
+          },
+          {
+            "name": "Demi-Human",
+            "tier": "B+",
+            "soloDamage": "45-60",
+            "summonCount": 5,
+            "cost": {
+              "type": "FP",
+              "amount": 69
+            },
+            "source": "Base game",
+            "notes": "Versatile, great distractions. More Aggressive at Night"
+          },
+          {
+            "name": "Man-Serpent",
+            "tier": "B+",
+            "soloDamage": 31,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 85
+            },
+            "source": "Base game",
+            "notes": "Fire AoE and melee. Good range, decent damage with Sea of Magma ability"
+          },
+          {
+            "name": "Oracle Envoy",
+            "tier": "B",
+            "soloDamage": 62,
+            "summonCount": 4,
+            "cost": {
+              "type": "FP",
+              "amount": 72
+            },
+            "source": "Base game",
+            "notes": "Holy Range. Melee. Decent backline damage. Okay Melee damage when in danger"
+          },
+          {
+            "name": "Ancestral Follower",
+            "tier": "B",
+            "soloDamage": 28,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 63
+            },
+            "source": "Base game",
+            "notes": "High Damage Magical Range, Melee when in danger"
+          },
+          {
+            "name": "Man-Fly Ashes",
+            "tier": "B",
+            "soloDamage": "45-75",
+            "summonCount": 3,
+            "cost": {
+              "type": "FP",
+              "amount": 29
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "2 Melee, 1 Poison Range. Low FP Cost for Efficiency. Great Distractions"
+          },
+          {
+            "name": "Jarwight Puppet",
+            "tier": "B",
+            "soloDamage": "38-58",
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 60
+            },
+            "source": "Base game",
+            "notes": "Elite. Range, Uses all types of throwable pots from the base game to attack and inflict status. Some of which include Bleed, Poison, Deadly Poison, Fire, Oil, and Frost"
+          },
+          {
+            "name": "Gravebird Ashes",
+            "tier": "B",
+            "soloDamage": 11,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 52
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Melee, Frost Range, Easily Staggered. Ghostflame can proc frostbite"
+          },
+          {
+            "name": "Mad Pumpkin Head",
+            "tier": "B",
+            "soloDamage": 43,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 110
+            },
+            "source": "Base game",
+            "notes": "Bleed Melee, Very Tanky. Can friendly fire with multi-headslam attack"
+          },
+          {
+            "name": "Kindred of Rot",
+            "tier": "B",
+            "soloDamage": 45,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 73
+            },
+            "source": "Base game",
+            "notes": "Melee, Pest Threads Range. Recieves a Damage buff upon any Scarlet Rot Procs in the vicinity"
+          },
+          {
+            "name": "Fire Monk",
+            "tier": "B",
+            "soloDamage": 46,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 85
+            },
+            "source": "Base game",
+            "notes": "Melee, Close Range Fire Magic, Good AoE"
+          },
+          {
+            "name": "Fanged Imp",
+            "tier": "B",
+            "soloDamage": 64,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 50
+            },
+            "source": "Base game",
+            "notes": "Magic Range and Bleed Melee. Mobile and decent distractions"
+          },
+          {
+            "name": "Warhawk",
+            "tier": "B",
+            "soloDamage": 45,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 52
+            },
+            "source": "Base game",
+            "notes": "Flying, Melee. Highly mobile, Fire AoE ability. Good damage. Easily Staggered"
+          },
+          {
+            "name": "Giant Rat",
+            "tier": "B",
+            "soloDamage": 29,
+            "summonCount": "3-5",
+            "cost": {
+              "type": "FP",
+              "amount": 0
+            },
+            "source": "Base game",
+            "notes": "Melee. Costs no HP or FP, well rounded. Number of Rats increases as upgraded. (has preset locations for boss arenas)"
+          },
+          {
+            "name": "Albinauric",
+            "tier": "B",
+            "soloDamage": 40,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 53
+            },
+            "source": "Base game",
+            "notes": "Melee. Frost AoE breath attack. Surprisingly mobile"
+          },
+          {
+            "name": "Rotten Stray",
+            "tier": "B-",
+            "soloDamage": "36-75",
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 35
+            },
+            "source": "Base game",
+            "notes": "Melee, inflicts Scarlet Rot. Low HP but low Summon Cost. Value goes up the weaker your foe is to rot"
+          },
+          {
+            "name": "Crystalian",
+            "tier": "B-",
+            "soloDamage": 42,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 101
+            },
+            "source": "Base game",
+            "notes": "Melee, Range. Extremely tanky until staggered once. High Poise"
+          },
+          {
+            "name": "Fire Knight Hilde",
+            "tier": "B-",
+            "soloDamage": 23,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 116
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Elite. Melee. Fire Range. Easily Staggered. Blocks occasional small attacks"
+          },
+          {
+            "name": "Fingercreeper Ashes",
+            "tier": "C+",
+            "soloDamage": 3,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 80
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Casts a heal upon summoning. Weak Melee. Supportive type summon that follows you casting healing spells. Is stunned by and weak to fire"
+          },
+          {
+            "name": "Godrick Soldiers",
+            "tier": "C+",
+            "soloDamage": 60,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 54
+            },
+            "source": "Base game",
+            "notes": "Both have shields, Both have Melee, one uses a crossbow when at range"
+          },
+          {
+            "name": "Vulgar Militia",
+            "tier": "C+",
+            "soloDamage": 43,
+            "summonCount": 3,
+            "cost": {
+              "type": "FP",
+              "amount": 70
+            },
+            "source": "Base game",
+            "notes": "Bleed Melee. Low HP"
+          },
+          {
+            "name": "Archer",
+            "tier": "C+",
+            "soloDamage": 24,
+            "summonCount": 3,
+            "cost": {
+              "type": "FP",
+              "amount": 57
+            },
+            "source": "Base game",
+            "notes": "Frost Range. Inaccurate against Mobile Targets"
+          },
+          {
+            "name": "Marionette Soldiers",
+            "tier": "C+",
+            "soloDamage": 33,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 67
+            },
+            "source": "Base game",
+            "notes": "Range, Instantly Aggressive. Chance to Malfunction when Damaged"
+          },
+          {
+            "name": "Leyndell Soldiers",
+            "tier": "C+",
+            "soloDamage": 55,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 64
+            },
+            "source": "Base game",
+            "notes": "Shield and Melee. Good survivability, decent poise damage with Guard Counters"
+          },
+          {
+            "name": "Skeletal Militiaman",
+            "tier": "C+",
+            "soloDamage": 31,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 44
+            },
+            "source": "Base game",
+            "notes": "Melee, Self-Revive"
+          },
+          {
+            "name": "Lone Wolf",
+            "tier": "C+",
+            "soloDamage": 55,
+            "summonCount": 3,
+            "cost": {
+              "type": "FP",
+              "amount": 55
+            },
+            "source": "Base game",
+            "notes": "Melee. Highly mobile, great distractions"
+          },
+          {
+            "name": "Battlemage Hugues",
+            "tier": "C",
+            "soloDamage": 21,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 122
+            },
+            "source": "Base game",
+            "notes": "Elite. AoE and Single-Target Magic. Aoe Magical Melee and Normal Melee strikes. Too Expensive"
+          },
+          {
+            "name": "Land Squirt",
+            "tier": "C",
+            "soloDamage": "30-75",
+            "summonCount": 3,
+            "cost": {
+              "type": "HP",
+              "amount": 240
+            },
+            "source": "Base game",
+            "notes": "Poison Cloud, Mostly Stationary. Very Tanky (has preset locations for boss arenas) Costs HP to summon"
+          },
+          {
+            "name": "Raya Lucaria Soldiers",
+            "tier": "C",
+            "soloDamage": 49,
+            "summonCount": 3,
+            "cost": {
+              "type": "FP",
+              "amount": 59
+            },
+            "source": "Base game",
+            "notes": "Melee and Magic Range. Greatsword one throws cuckoo pots but isn't very aggressive as a result"
+          },
+          {
+            "name": "Twinsage Sorcerer",
+            "tier": "C",
+            "soloDamage": 34,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 89
+            },
+            "source": "Base game",
+            "notes": "Long and Close Range Magic. Weak Melee"
+          },
+          {
+            "name": "Haligtree Soldiers",
+            "tier": "C-",
+            "soloDamage": "32-46",
+            "summonCount": 4,
+            "cost": {
+              "type": "FP",
+              "amount": 66
+            },
+            "source": "Base game",
+            "notes": "Melee. Can buildup poison with thrown pots. Explode and die when at half health for big damage in an AoE"
+          },
+          {
+            "name": "Putrid Corpse",
+            "tier": "C-",
+            "soloDamage": 18,
+            "summonCount": 4,
+            "cost": {
+              "type": "FP",
+              "amount": 40
+            },
+            "source": "Base game",
+            "notes": "Melee Grappler, Very Tanky. Strong distraction summons. (has preset locations for boss arenas)"
+          },
+          {
+            "name": "Nomad",
+            "tier": "C-",
+            "soloDamage": 7,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 61
+            },
+            "source": "Base game",
+            "notes": "Fire short-ranged AoE. Uses Frenzied Flame attacks that inflict Madness. Useful in the Arena"
+          },
+          {
+            "name": "Spirit Jellyfish",
+            "tier": "D+",
+            "soloDamage": 7,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 31
+            },
+            "source": "Base game",
+            "notes": "Poison Range, Weak Melee, Flying, Decently Healthy"
+          },
+          {
+            "name": "Clayman",
+            "tier": "D+",
+            "soloDamage": 18,
+            "summonCount": 2,
+            "cost": {
+              "type": "FP",
+              "amount": 77
+            },
+            "source": "Base game",
+            "notes": "Magic Range, Slow and Slow Magic, Slightly Tanky"
+          },
+          {
+            "name": "Page",
+            "tier": "D+",
+            "soloDamage": 19,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 81
+            },
+            "source": "Base game",
+            "notes": "Fire Range and Melee. Too Expensive FP Cost"
+          },
+          {
+            "name": "Winged Misbegotten",
+            "tier": "D+",
+            "soloDamage": 5,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 37
+            },
+            "source": "Base game",
+            "notes": "Inaccurate Range, Flying (Until Staggered once), Very Easily Staggered"
+          },
+          {
+            "name": "Skeletal Bandit",
+            "tier": "D+",
+            "soloDamage": 3,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 22
+            },
+            "source": "Base game",
+            "notes": "Melee, Self-Revive"
+          },
+          {
+            "name": "Spider Scorpion Ashes",
+            "tier": "D",
+            "soloDamage": 6,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 41
+            },
+            "source": "Shadow of the Erdtree DLC",
+            "notes": "Melee. Doesn't use stinger enough to Poison. (has preset locations for boss arenas)"
+          },
+          {
+            "name": "Glintstone Sorcerer",
+            "tier": "D",
+            "soloDamage": 17,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 49
+            },
+            "source": "Base game",
+            "notes": "Magic Range. Weak Melee. Casts one spell"
+          },
+          {
+            "name": "Soldjars of Fortune",
+            "tier": "D",
+            "soloDamage": 5,
+            "summonCount": 3,
+            "cost": {
+              "type": "HP",
+              "amount": 135
+            },
+            "source": "Base game",
+            "notes": "Melee, Instantly die upon receiving any Fire Damage. Tanky outside of Fire Damage. Costs HP to summon"
+          },
+          {
+            "name": "Miranda Sprout",
+            "tier": "D",
+            "soloDamage": "5-30",
+            "summonCount": 5,
+            "cost": {
+              "type": "HP",
+              "amount": 185
+            },
+            "source": "Base game",
+            "notes": "Weak Poison Cloud, Weak Melee, Very Slow. Costs HP to summon"
+          },
+          {
+            "name": "Wandering Noble",
+            "tier": "D",
+            "soloDamage": 33,
+            "summonCount": 5,
+            "cost": {
+              "type": "FP",
+              "amount": 28
+            },
+            "source": "Base game",
+            "notes": "Melee, Slow. Decent Distractions"
+          },
+          {
+            "name": "Noble Sorcerer",
+            "tier": "D-",
+            "soloDamage": 3,
+            "summonCount": 1,
+            "cost": {
+              "type": "FP",
+              "amount": 11
+            },
+            "source": "Base game",
+            "notes": "Magical Range, Slow. Low Damage"
+          }
+        ]
+      }
+    }
