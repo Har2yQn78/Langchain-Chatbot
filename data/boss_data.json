@@ -1,0 +1,3248 @@
+{
+    "bosses": [
+      {
+        "id": 1,
+        "name": "Margit, the Fell Omen",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "Stormveil Castle",
+            "subArea": "Stormhill",
+            "siteOfGrace": "Castleward Tunnel",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 12000
+              },
+              {
+                "item": "Talisman Pouch",
+                "condition": "NG only, Morgott not defeated"
+              }
+            ]
+          },
+          {
+            "area": "Capital Outskirts",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 16800
+              },
+              {
+                "item": "Viridian Amber Medallion +1"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 4174,
+          "defense": 103,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "parriesForStanceBreak": 2
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Strike", "Pierce", "Holy"],
+          "negations": {
+            "standard": 0,
+            "slash": -10,
+            "strike": 0,
+            "pierce": 0,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [316, 414, 704, 1161],
+            "scarletRot": [316, 414, 704, 1161],
+            "hemorrhage": [316, 414, 704, 1161],
+            "frostbite": [316, 414, 704, 1161],
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Sorcerer Rogier",
+              "location": "Right by the boss entrance"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Slash"],
+          "resistances": ["Holy"],
+          "tips": [
+            "Purchase Margit's Shackle from Patches to bind him to the ground (works only in Phase 1)",
+            "Use Lone Wolf Ashes or Spirit Jellyfish for distraction",
+            "Godrick Soldiers ashes are effective",
+            "Glintstone Stars and Glintstone Pebble work well at range",
+            "Roll through his leaping plunge hammer attack for damage opportunity",
+            "Ash of War: Barricade Shield helps with melee combat",
+            "Two parries required for riposte opportunity",
+            "Most staff attacks are parryable, magic weapon attacks are not"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Godrick the Grafted",
+        "aliases": ["Godrick the Golden"],
+        "type": "Demigod",
+        "isOptional": true,
+        "isShardbearer": true,
+        "locations": [
+          {
+            "area": "Stormveil Castle",
+            "siteOfGrace": "Secluded Cell",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 20000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 5000,
+                "condition": "NG, Co-op"
+              },
+              {
+                "item": "Godrick's Great Rune"
+              },
+              {
+                "item": "Remembrance of the Grafted"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 6080,
+          "defense": 105,
+          "stance": 105,
+          "parryable": {
+            "isParryable": false
+          },
+          "phases": {
+            "transition": "Increased defense",
+            "phase1": {
+              "damageTypes": ["Standard", "Strike"]
+            },
+            "phase2": {
+              "damageTypes": ["Standard", "Fire", "Strike"]
+            }
+          }
+        },
+        "combat": {
+          "negations": {
+            "standard": 0,
+            "slash": 0,
+            "strike": 0,
+            "pierce": 0,
+            "magic": 20,
+            "fire": 20,
+            "lightning": 20,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [318, 416, 706, 1163],
+            "scarletRot": [318, 416, 706, 1163],
+            "hemorrhage": [318, 416, 706, 1163],
+            "frostbite": [318, 416, 706, 1163],
+            "sleep": [318, 416, 706, 1163],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Stormcaller attack deflects throwable items"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Nepheli Loux",
+              "condition": "Exhaust dialog in room between Liftside Chamber and Secluded Cell Sites of Grace",
+              "location": "Outside boss door"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Slash", "Strike", "Pierce"],
+          "resistances": ["Holy", "Magic", "Fire", "Lightning"],
+          "tips": [
+            "Wait for clear openings between combo attacks",
+            "Use arena obstacles (trees, pillars, rocks) for protection",
+            "Physical damage is more effective than elemental damage",
+            "Use Rock Sling for Intelligence builds",
+            "Use Bestial Sling for Faith builds",
+            "Aim for sides when using fist weapons",
+            "Rotten Stray ashes are effective due to enhanced Scarlet Rot"
+          ]
+        },
+        "quotes": [
+          "A lowly Tarnished, playing as a lord.",
+          "I command thee, kneel! I am the lord of all that is golden!"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Red Wolf of Radagon",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "requiredFor": {
+          "area": "Raya Lucaria Academy",
+          "boss": "Rennala Queen of the Full Moon",
+          "feature": "Respec ability"
+        },
+        "locations": [
+          {
+            "area": "Raya Lucaria Academy",
+            "subArea": "Grand Library",
+            "siteOfGrace": "Schoolhouse Classroom",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 14000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 3500,
+                "condition": "NG, Co-op"
+              },
+              {
+                "item": "Runes",
+                "amount": 63100,
+                "condition": "NG +3"
+              },
+              {
+                "item": "Memory Stone"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 2204,
+          "parryable": {
+            "isParryable": false
+          }
+        },
+        "combat": {
+          "damageTypes": ["Magic", "Physical"],
+          "negations": {
+            "magic": 40,
+            "slash": -20
+          },
+          "resistances": {
+            "poison": [324, 422, 712, 1169],
+            "scarletRot": [324, 422, 712, 1169],
+            "hemorrhage": [530, 820, 1277],
+            "frostbite": [530, 820, 1277],
+            "sleep": [324, 422, 712, 1169],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Sorceress Sellen",
+              "condition": "After completing most of her questline",
+              "location": "Near boss entrance"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Slash"],
+          "resistances": ["Magic", "Hemorrhage", "Frostbite"],
+          "tips": [
+            "Use high-defense spirit ashes like Spirit Jellyfish for reliable hits",
+            "Use fast-casting spells like Glintstone Pebble while staying mobile",
+            "Marionette Soldier Ashes can force repeated dashes",
+            "Barricade Shield helps block larger attacks without guard break"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Rennala, Queen of the Full Moon",
+        "aliases": ["Carian Queen of the Full Moon"],
+        "type": "Legend",
+        "isOptional": true,
+        "isShardbearer": true,
+        "becomesFriendly": {
+          "condition": "After defeat",
+          "service": "Character stat reallocation"
+        },
+        "locations": [
+          {
+            "area": "Raya Lucaria Academy",
+            "siteOfGrace": "Debate Parlor",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 40000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 30000,
+                "condition": "NG, Co-op Host"
+              },
+              {
+                "item": "Runes",
+                "amount": 10000,
+                "condition": "NG, Co-op Phantom"
+              },
+              {
+                "item": "Remembrance of the Full Moon Queen"
+              },
+              {
+                "item": "Great Rune of the Unborn"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "phases": {
+            "phase1": {
+              "hp": 3493,
+              "defense": 109,
+              "stance": 0,
+              "parryable": {
+                "isParryable": false
+              },
+              "damageTypes": ["Standard", "Magic", "Fire"],
+              "negations": {
+                "standard": -10,
+                "slash": -10,
+                "strike": 0,
+                "pierce": -10,
+                "magic": 80,
+                "fire": 20,
+                "lightning": 20,
+                "holy": 20
+              },
+              "resistances": {
+                "poison": [326, 424, 714, 1171],
+                "scarletRot": [326, 424, 714, 1171],
+                "hemorrhage": [326, 424, 714, 1171],
+                "frostbite": [326, 424, 714, 1171],
+                "sleep": "immune",
+                "madness": "immune"
+              }
+            },
+            "phase2": {
+              "hp": 4097,
+              "defense": 109,
+              "stance": 80,
+              "parryable": {
+                "isParryable": false
+              },
+              "damageTypes": ["Magic"],
+              "negations": {
+                "standard": -10,
+                "slash": -10,
+                "strike": 0,
+                "pierce": -10,
+                "magic": 80,
+                "fire": 40,
+                "lightning": 40,
+                "holy": 40
+              },
+              "resistances": {
+                "poison": [534, 824, 1281],
+                "scarletRot": [534, 824, 1281],
+                "hemorrhage": [326, 424, 714, 1171],
+                "frostbite": [534, 824, 1281],
+                "sleep": "immune",
+                "madness": "immune"
+              }
+            }
+          }
+        },
+        "combat": {
+          "specialMechanics": [
+            "Phase 1: Protected by bubble shield",
+            "Must defeat 3 glowing Juvenile Scholars to break shield",
+            "Phase 2: Can be stance-broken for critical hits"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Slash", "Pierce"],
+          "resistances": ["Magic", "Status Effects"],
+          "tips": [
+            "Counter high Magic negation with Rock Sling (Physical damage)",
+            "Use Intelligence-scaling melee weapons (Carian Knight's Sword, Moonveil)",
+            "Summon Lone Wolf Ashes in Phase 2 for stagger",
+            "Use status effects in Phase 1",
+            "Use Throwing Daggers to hit glowing Juvenile Scholars"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Leonine Misbegotten",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "variants": [
+          "Misbegotten Warrior (normal enemy)",
+          "Crucible Knight and Misbegotten Warrior",
+          "Perfumer Tricia and Misbegotten Warrior",
+          "Misbegotten Crusader"
+        ],
+        "locations": [
+          {
+            "area": "Castle Morne",
+            "subArea": "Weeping Peninsula",
+            "siteOfGrace": "Beside the Rampart Gaol",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 3800,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 950,
+                "condition": "NG, Co-op"
+              },
+              {
+                "item": "Grafted Blade Greatsword"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 2198,
+          "defense": 103.9,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard"],
+          "negations": {
+            "standard": 10,
+            "slash": 0,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 20,
+            "fire": 0,
+            "lightning": 20,
+            "holy": 20
+          },
+          "resistances": {
+            "poison": [316, 414, 704, 1161],
+            "scarletRot": [316, 414, 704, 1161],
+            "hemorrhage": [316, 414, 704, 1161],
+            "frostbite": [316, 414, 704, 1161],
+            "sleep": [316, 414, 704, 1161],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Edgar",
+              "condition": "Complete part of Irina's questline and deliver Irina's Letter to Edgar",
+              "location": "Near boss entrance"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Slash", "Fire"],
+          "resistances": ["Magic", "Holy", "Lightning"],
+          "tips": [
+            "Summon Edgar for help with aggressive attacks",
+            "Use Lone Wolves for distraction and potential stunlock",
+            "Demi-Humans are effective spirit summons",
+            "Rolling is more effective than blocking due to high stamina damage"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "name": "Ancestor Spirit",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "Siofra River",
+            "subArea": "Hallowhorn Grounds",
+            "siteOfGrace": "Siofra River Bank",
+            "access": {
+              "requirement": "Light eight obelisks",
+              "locations": [
+                "By the Siofra River Bank site of grace",
+                "In a corner to the west of the first pillar",
+                "On a small island in the watery area with lightning wisps",
+                "By a cliff in the eastern part of Siofra River",
+                "Just south of the Worshipper's Woods Site of Grace",
+                "West of the Worshipper's Woods Site of Grace",
+                "On the east side of the path to the Below the Well Site of Grace",
+                "On the west side on the path to the Below the Well Site of Grace"
+              ],
+              "activation": "Interact with glowing deer carcass after lighting all obelisks"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 13000
+              },
+              {
+                "item": "Ancestral Follower Ashes"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 4393,
+          "defense": 107,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Magic"],
+          "negations": {
+            "standard": 0,
+            "slash": -10,
+            "strike": 0,
+            "pierce": 0,
+            "magic": 20,
+            "fire": -20,
+            "lightning": 0,
+            "holy": -20
+          },
+          "resistances": {
+            "poison": [1140, 1597],
+            "scarletRot": [1140, 1597],
+            "hemorrhage": [1140, 1597],
+            "frostbite": [1140, 1597],
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Fire", "Holy", "Slash"],
+          "resistances": ["Magic", "Status Effects"],
+          "tips": [
+            "Use fast-attacking spirit ashes like Latenna the Albinauric or Demi-Human Spirit Ashes",
+            "Use Rock Sling to bypass Magic resistance",
+            "Use 100% Physical defense shield as last resort",
+            "Time healing and buffs during Airborne Spirit Vapor attack"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "name": "Starscourge Radahn",
+        "type": "Legend",
+        "isOptional": true,
+        "isShardbearer": true,
+        "requiredFor": {
+          "areas": ["Nokron, Eternal City"],
+          "expansion": "Shadow of the Erdtree",
+          "ending": "Certain ending (unspecified)"
+        },
+        "locations": [
+          {
+            "area": "Redmane Castle",
+            "subArea": "Caelid",
+            "siteOfGrace": "Chamber Outside the Plaza",
+            "access": {
+              "requirement": "Activate Radahn Festival",
+              "conditions": [
+                "Progress in Ranni's questline",
+                "OR activate any Site of Grace in Altus Plateau"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 70000
+              },
+              {
+                "item": "Remembrance of the Starscourge"
+              },
+              {
+                "item": "Radahn's Great Rune"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 9572,
+          "defense": 113,
+          "stance": 200,
+          "parryable": {
+            "isParryable": false
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Pierce", "Magic"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 0,
+            "magic": 20,
+            "fire": 20,
+            "lightning": 20,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [334, 432, 722, 1179],
+            "scarletRot": [243, 285, 383, 673],
+            "hemorrhage": [334, 432, 722, 1179],
+            "frostbite": [334, 432, 722, 1179],
+            "sleep": [548, 838, 1295],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Starts with magic arrow attacks",
+            "Arrows home in on player",
+            "Can perform Radahn's Rain (arrow barrage)",
+            "Switches to melee at close range"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": false,
+          "npcSummons": [
+            {
+              "name": "Blaidd"
+            },
+            {
+              "name": "Iron Fist Alexander"
+            },
+            {
+              "name": "Patches"
+            },
+            {
+              "name": "Great Horned Tragoth"
+            },
+            {
+              "name": "Okina"
+            },
+            {
+              "name": "Lionel the Lionhearted"
+            },
+            {
+              "name": "Finger Maiden Therolina"
+            },
+            {
+              "name": "Castellan Jerren"
+            }
+          ],
+          "summonMechanics": {
+            "uniqueFeatures": [
+              "Multiple NPCs can be summoned simultaneously",
+              "NPCs can be resummoned after death",
+              "Summons don't reduce rune rewards"
+            ]
+          }
+        },
+        "strategy": {
+          "weaknesses": ["Pierce", "Scarlet Rot"],
+          "resistances": ["Holy", "Sleep"],
+          "tips": [
+            "Torrent is available (except in co-op)",
+            "Use debris as cover from arrows",
+            "Shield blocks arrows but causes heavy magic damage",
+            "Roll toward arrows to dodge more easily",
+            "Stay at medium range to prevent arrow wall attack",
+            "Can win by relying solely on NPC summons"
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "name": "Magma Wyrm Makar",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "category": "Dragon",
+        "locations": [
+          {
+            "area": "Ruin-Strewn Precipice",
+            "subArea": "Liurnia of the Lakes",
+            "siteOfGrace": "Ruin-Strewn Precipice Overlook",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 24000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 6000,
+                "condition": "NG, Co-op"
+              },
+              {
+                "item": "Magma Wyrm's Scalesword"
+              },
+              {
+                "item": "Dragon Heart"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 7141,
+          "defense": 109,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false
+          },
+          "weakSpot": "Head"
+        },
+        "combat": {
+          "damageTypes": ["Slash", "Strike", "Fire"],
+          "negations": {
+            "standard": 10,
+            "slash": 35,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 80,
+            "lightning": 40,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [534, 824, 1281],
+            "scarletRot": [534, 824, 1281],
+            "hemorrhage": [534, 824, 1281],
+            "frostbite": [1150, 1607],
+            "sleep": [237, 279, 377, 667],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Great Horned Tragoth"
+            },
+            {
+              "name": "Blackguard",
+              "condition": "Purchased Rya's Necklace and haven't killed him"
+            },
+            {
+              "name": "Millicent",
+              "condition": "Advanced her questline up to exhausting dialogue at Gowry's shack"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Strike", "Pierce", "Sleep"],
+          "resistances": ["Fire", "Frostbite"],
+          "tips": []
+        }
+      },
+      {
+        "id": 9,
+        "name": "Mimic Tear",
+        "aliases": ["Stray Mimic Tear"],
+        "type": "Great Enemy",
+        "isOptional": {
+          "nokron": false,
+          "haligtree": true,
+          "note": "Required for at least one ending"
+        },
+        "locations": [
+          {
+            "area": "Nokron, Eternal City",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 10000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 33750,
+                "condition": "NG+3"
+              },
+              {
+                "item": "Larval Tear",
+                "amount": 2
+              },
+              {
+                "item": "Silver Tear Mask"
+              }
+            ]
+          },
+          {
+            "area": "Hidden Path to the Haligtree",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 50000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 37500,
+                "condition": "NG, Co-op Host"
+              },
+              {
+                "item": "Runes",
+                "amount": 12500,
+                "condition": "NG, Co-op Phantom"
+              },
+              {
+                "item": "Runes",
+                "amount": 105000,
+                "condition": "NG+1"
+              },
+              {
+                "item": "Blackflame Monk Amon Ashes"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": {
+            "base": 19536,
+            "note": "Varies based on player's max HP"
+          },
+          "parryable": {
+            "isParryable": "Varies based on player equipment"
+          }
+        },
+        "combat": {
+          "damageTypes": "Mirrors player equipment",
+          "negations": "Mirrors player armor",
+          "resistances": {
+            "sleep": "Stagger only",
+            "madness": "Weak"
+          },
+          "specialMechanics": [
+            "Copies player's equipment and appearance",
+            "Can heal once during battle",
+            "Initial form is Silver Tear before transformation",
+            "Equipment/spells can be changed after fight starts without affecting boss"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Madness"],
+          "resistances": ["Sleep"],
+          "tips": [
+            "Unequip gear before fight to force boss to fight unarmed",
+            "Re-equip gear after fight starts",
+            "Use Lone Wolf Ashes for support",
+            "Status effects are effective",
+            "Boss copies consumables and spells"
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "name": "Royal Knight Loretta",
+        "type": "Greater Foe",
+        "isOptional": true,
+        "requiredFor": {
+          "area": "Three Sisters",
+          "ending": "Certain ending (unspecified)"
+        },
+        "locations": [
+          {
+            "area": "Caria Manor",
+            "subArea": "Moongazing Grounds",
+            "siteOfGrace": "Manor Upper Level",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 7500,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 2500,
+                "condition": "NG, Co-op"
+              },
+              {
+                "item": "Loretta's Greatbow"
+              },
+              {
+                "item": "Ash of War: Loretta's Slash"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 4214,
+          "defense": 107,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "note": "Immune to critical attacks, stance break only causes brief stun"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Strike", "Pierce", "Magic"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 0,
+            "holy": 20
+          },
+          "resistances": {
+            "poison": "immune",
+            "scarletRot": "immune",
+            "hemorrhage": "immune",
+            "frostbite": "immune",
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Lightning"],
+          "resistances": ["Magic", "Fire"],
+          "tips": [
+            "Maintain distance during glintstone sorcery attacks",
+            "Use Spelldrake Talisman or Magic Fortification for magic defense",
+            "Summon high HP and Magic resistant spirits like Twinsage Sorcerer Ashes",
+            "Use Lightning Spear to exploit weakness"
+          ]
+        }
+      },
+      {
+        "id": 11,
+        "name": "Regal Ancestor Spirit",
+        "type": "Legend",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "Nokron, Eternal City",
+            "subArea": "Hallowhorn Grounds",
+            "siteOfGrace": "Ancestral Woods",
+            "access": {
+              "requirement": "Light six obelisks",
+              "locations": [
+                "By the cliff's edge, next to the broken bridge from the Mimic Tear Site of Grace",
+                "By the side of the brick road, due east of the Ancestral Woods Site of Grace",
+                "On the ledge next to the brick road with an Ancestral Shaman singing next to it",
+                "Behind a large tall narrow rock in the center of an open field, northwest of the Ancestral Woods Site of Grace",
+                "By the cliff's edge in the far northwest corner of the Ancestral Woods, next to submerged ruins",
+                "Behind a large carcass in a ruin just west of the Hallowhorn Grounds"
+              ],
+              "activation": "Interact with glowing deer carcass after lighting all obelisks"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 24000
+              },
+              {
+                "item": "Remembrance of the Regal Ancestor"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 6301,
+          "defense": 111,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Magic"],
+          "negations": {
+            "standard": 0,
+            "slash": -10,
+            "strike": 0,
+            "pierce": 0,
+            "magic": 20,
+            "fire": -20,
+            "lightning": 0,
+            "holy": -20
+          },
+          "resistances": {
+            "poison": [1169, 1626],
+            "scarletRot": [1169, 1626],
+            "hemorrhage": [1169, 1626],
+            "frostbite": [1169, 1626],
+            "sleep": "immune",
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Can perform Soul Siphon to heal",
+            "Becomes more aggressive at low health"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Fire", "Holy", "Slash"],
+          "resistances": ["Magic", "Status Effects"],
+          "tips": [
+            "Focus damage after first two Soul Siphons to prevent third heal"
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "name": "Dragonkin Soldier of Nokstella",
+        "type": "Greater Foe",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "Ainsel River",
+            "subArea": "Nokstella",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 12000
+              },
+              {
+                "item": "Frozen Lightning Spear"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 4372,
+          "parryable": {
+            "isParryable": false
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Lightning"],
+          "negations": {
+            "lightning": 40,
+            "slash": -20
+          },
+          "resistances": {
+            "poison": [526, 816, 1273],
+            "scarletRot": [526, 816, 1273],
+            "hemorrhage": [526, 816, 1273],
+            "frostbite": [1131, 1588],
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Slash"],
+          "resistances": ["Lightning", "Frostbite"],
+          "tips": []
+        },
+        "lore": {
+          "description": "Huge draconic humanoid",
+          "role": "Guardian of an ancient throne beneath Nokstella"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Valiant Gargoyle",
+        "type": "Boss",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "Siofra Aqueduct",
+            "siteOfGrace": "Siofra River",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 30000
+              },
+              {
+                "item": "Gargoyle's Greatsword"
+              },
+              {
+                "item": "Gargoyle's Twinblade"
+              }
+            ]
+          },
+          {
+            "area": "Capital Outskirts",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 2835
+              },
+              {
+                "item": "Gargoyle's Great Axe"
+              }
+            ]
+          },
+          {
+            "area": "Leyndell, Royal Capital",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 3332
+              },
+              {
+                "item": "Gargoyle's Halberd"
+              }
+            ]
+          },
+          {
+            "area": "Leyndell, Ashen Capital",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 8608
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "stance": 110,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          },
+          "weakSpot": "head"
+        },
+        "combat": {
+          "damageTypes": [
+            {
+              "type": "Standard",
+              "weapon": "Halberd"
+            },
+            {
+              "type": ["Standard", "Slash", "Holy"],
+              "weapon": "Greatsword"
+            },
+            {
+              "type": ["Standard", "Pierce"],
+              "weapon": "Twinblade"
+            }
+          ],
+          "negations": {
+            "standard": 10,
+            "slash": 35,
+            "strike": 0,
+            "pierce": 35,
+            "magic": 20,
+            "fire": 40,
+            "lightning": 40,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": "immune",
+            "scarletRot": "immune",
+            "hemorrhage": "immune",
+            "frostbite": "immune",
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Strike"],
+          "resistances": ["Slash", "Pierce", "Fire", "Lightning", "Holy"],
+          "tips": [
+            "Use Spirit Jellyfish or Ancestral Follower for aggro management",
+            "Use Pest Threads for multiple hits due to large size",
+            "Use Lightning Spear or Great Glintstone Shard for ranged attacks",
+            "Use Flame, Cleanse Me or Cure Poison for poison buildup",
+            "Dodge roll underneath/behind for melee combat",
+            "Use shield with Barricade Shield for tanking",
+            "Use Greenburst Crystal Tear for better stamina recovery",
+            "Consider Kindred of Rot Talisman with Mimic Tear for poison boost"
+          ]
+        }
+      },
+      {
+        "id": 14,
+        "name": "Astel, Naturalborn of the Void",
+        "type": "Legend",
+        "isOptional": true,
+        "requiredFor": {
+          "area": "Moonlight Altar",
+          "ending": "Certain ending (unspecified)"
+        },
+        "locations": [
+          {
+            "area": "Grand Cloister",
+            "access": {
+              "requirement": "Take coffin ride",
+              "directions": [
+                "From Grand Cloister Site of Grace, head west to path end",
+                "Drop down broken ledges",
+                "Cross Scarlet Rot river westward then south",
+                "Find and ride coffin to boss area"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 80000
+              },
+              {
+                "item": "Remembrance of the Naturalborn"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 11170,
+          "defense": 114,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          },
+          "weakSpot": "Head",
+          "category": "Gravity"
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Magic"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 40,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [552, 842, 1299],
+            "scarletRot": [552, 842, 1299],
+            "hemorrhage": [552, 842, 1299],
+            "frostbite": "immune",
+            "sleep": "immune",
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Crystalline body has higher defense than limbs/head",
+            "Can teleport and perform grab attack"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Slash", "Strike", "Pierce"],
+          "resistances": ["Magic", "Fire", "Lightning", "Holy"],
+          "tips": [
+            "Avoid locking on except during attacks for better mobility",
+            "Use Mimic Tear or other tanky summons for distraction",
+            "Consider Latenna or Ancestral Follower for ranged damage",
+            "Target limbs or head instead of crystalline body",
+            "Watch above after teleports for grab attacks"
+          ]
+        }
+      },
+      {
+        "id": 15,
+        "name": "Godskin Noble",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "variants": [
+          "Part of Godskin Duo",
+          "Spirit summon in Spirit-Caller Snail fight"
+        ],
+        "locations": [
+          {
+            "area": "Volcano Manor",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 50000
+              },
+              {
+                "item": "Serpent's Amnion"
+              },
+              {
+                "item": "Godskin Stitcher"
+              },
+              {
+                "item": "Noble Presence"
+              }
+            ]
+          },
+          {
+            "area": "Divine Tower of Liurnia",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 4810
+              },
+              {
+                "item": "Godskin Noble Set"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "note": "Vulnerable to critical hits after stance break or parry"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Pierce", "Fire"],
+          "negations": {
+            "standard": 0,
+            "slash": -10,
+            "strike": 35,
+            "pierce": 0,
+            "magic": 20,
+            "fire": 40,
+            "lightning": 20,
+            "holy": 40
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Slash", "Hemorrhage", "Sleep"],
+          "resistances": ["Fire", "Holy", "Strike"],
+          "tips": [
+            "Use sleep pots for temporary incapacitation",
+            "Sleep arrows are effective and easy to craft early game"
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "name": "Rykard, Lord of Blasphemy",
+        "type": "Demigod",
+        "isOptional": true,
+        "isShardbearer": true,
+        "phases": [
+          {
+            "name": "God-Devouring Serpent",
+            "hp": 30493,
+            "damageTypes": ["Standard", "Fire"],
+            "inflicts": ["Poison"]
+          },
+          {
+            "name": "Rykard, Lord of Blasphemy",
+            "hp": 59174,
+            "damageTypes": ["Standard", "Pierce", "Fire"]
+          }
+        ],
+        "locations": [
+          {
+            "area": "Volcano Manor",
+            "subArea": "Mt. Gelmir",
+            "siteOfGrace": "Audience Pathway",
+            "access": {
+              "methods": [
+                {
+                  "description": "Progress through legacy dungeon",
+                  "steps": ["Complete dungeon", "Take waygate after Man-Serpent Ashes room"]
+                },
+                {
+                  "description": "Complete Tanith's contracts",
+                  "note": "This path prevents using Rykard for Leyndell access as final contract requires Leyndell completion"
+                }
+              ],
+              "requirement": "Pick up Serpent Hunter before fight"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 130000
+              },
+              {
+                "item": "Rykard's Great Rune"
+              },
+              {
+                "item": "Remembrance of the Blasphemous"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "defense": 115,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false,
+            "note": "Immune to critical attacks, stance break only causes brief stun"
+          },
+          "weakSpot": "head"
+        },
+        "combat": {
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 35,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 80,
+            "lightning": 20,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [556, 846, 1303],
+            "scarletRot": [556, 846, 1303],
+            "hemorrhage": [556, 846, 1303],
+            "frostbite": [247, 289, 387, 677],
+            "sleep": [556, 846, 1303],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "note": "Cooperators can only enter when boss HP bar is visible"
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Slash", "Pierce", "Frostbite"],
+          "resistances": ["Fire"],
+          "tips": [
+            "Use provided Serpent-Hunter Great Spear",
+            "Check equipment load after equipping spear",
+            "Use Mimic Tear with Serpent-Hunter for maximum effectiveness",
+            "Be sure to pick up the Serpent-Hunter Great Spear from the corpse at the start of the boss chamber. This weapon manifests a blade of light with each attack, significantly extending its range and allowing you to hit both phases of the boss from outside the magma pool.",
+            "The Serpent primarily attacks with lunging strikes and bites. It can also perform a special grab animation where it slams you down twice, though it only deals damage once. Occasionally, the Serpent raises its head and slams its chin onto the ground, sending magma flying in a wide arc. You can dodge roll this or block this attack to minimize damage.",
+            "If you're using the Serpent-Hunter, consistently poke the Serpent between its attacks. Repeated strikes to its head will briefly stagger the Serpent, giving you a valuable window for uninterrupted attacks."
+          ]
+        }
+      },
+      {
+        "id": 17,
+        "name": "Elemer of the Briar",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "The Shaded Castle",
+            "subArea": "Altus Plateau",
+            "siteOfGrace": "Shaded Castle Inner Gate",
+            "access": {
+              "directions": [
+                "Head north along passage",
+                "Turn west at fork",
+                "Climb ladder to balcony with Rotten Strays",
+                "Head east through building and across bridge",
+                "Climb stairs and go south into courtyard",
+                "Enter door where Cleanrot Knight emerges",
+                "Take elevator up",
+                "Head straight to boss arena"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 24000,
+                "condition": "NG"
+              },
+              {
+                "item": "Runes",
+                "amount": 18000,
+                "condition": "NG, Co-op Host"
+              },
+              {
+                "item": "Runes",
+                "amount": 6000,
+                "condition": "NG, Co-op Phantom"
+              },
+              {
+                "item": "Marais Executioner's Sword"
+              },
+              {
+                "item": "Briar Greatshield"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 4897,
+          "defense": 111,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "parriesForStanceBreak": 2,
+            "note": "Vulnerable to critical hits after stance break or parry"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Strike", "Pierce", "Magic"],
+          "negations": {
+            "standard": 35,
+            "slash": 35,
+            "strike": 35,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 20,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [332, 430, 720, 1177],
+            "scarletRot": [332, 430, 720, 1177],
+            "hemorrhage": [543, 833, 1290],
+            "frostbite": [543, 833, 1290],
+            "sleep": [332, 430, 720, 1177],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Cannot be backstabbed",
+            "Uses Eochaid's Dancing Blade for ranged attacks"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Pierce", "Lightning"],
+          "resistances": ["Hemorrhage", "Frostbite"],
+          "tips": [
+            "Possible to sneak up for initial charged heavy attack",
+            "Shield Slam has longest recovery time",
+            "Use 100% physical negation shield",
+            "Stay at close range to limit his moveset",
+            "Bait Eochaid's Dancing Blade and attack during sword retrieval",
+            "Target right flank during sword retrieval"
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "name": "Godfrey, First Elden Lord (Golden Shade)",
+        "type": "Great Enemy",
+        "isOptional": false,
+        "variants": [
+          "Godfrey, First Elden Lord"
+        ],
+        "locations": [
+          {
+            "area": "Leyndell, Royal Capital",
+            "siteOfGrace": "West Capital Rampart",
+            "access": {
+              "directions": [
+                "Head south along ramparts",
+                "Climb onto tree branch",
+                "Follow branch upward to balcony",
+                "Head north through fog gate"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 80000
+              },
+              {
+                "item": "Talisman Pouch",
+                "condition": "NG only"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 7099,
+          "defense": 114,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 0,
+            "magic": 20,
+            "fire": 20,
+            "lightning": 0,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": "immune",
+            "scarletRot": "immune",
+            "hemorrhage": "immune",
+            "frostbite": "immune",
+            "sleep": [552, 842, 1299],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Aggressive attack patterns",
+            "Combines slow and fast attacks in combos",
+            "Large attack range with axe"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Lightning", "Pierce"],
+          "resistances": ["Holy"],
+          "tips": [
+            "Wait to summon spirits due to initial lunge attack",
+            "Use Lightning spells/incantations or Lightning Ash of War",
+            "Maintain distance for healing due to large attack range",
+            "Attack after slow attacks in combos",
+            "With heavy/colossal weapons, avoid combos",
+            "With fast weapons, get 2-3 hits after slow attacks",
+            "Dodge through fast attacks"
+          ]
+        }
+      },
+      {
+        "id": 19,
+        "name": "Morgott, The Omen King",
+        "aliases": [
+          "Morgott the Grace Given",
+          "The Grace Given Lord",
+          "The Veiled Monarch"
+        ],
+        "type": "Demigod",
+        "isOptional": false,
+        "variants": [
+          "True identity of Margit, the Fell Omen"
+        ],
+        "requiredFor": {
+          "area": "Mountaintops of the Giants",
+          "progression": "Story advancement"
+        },
+        "locations": [
+          {
+            "area": "Leyndell, Royal Capital",
+            "siteOfGrace": "Queen's Bedchamber",
+            "access": {
+              "directions": [
+                "Head east from Godfrey's arena to balcony",
+                "Take branch up to second level",
+                "Cross bridge to Queen's Bedchamber",
+                "Go south up stairs to fog gate"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 120000
+              },
+              {
+                "item": "Remembrance of the Omen King"
+              },
+              {
+                "item": "Morgott's Great Rune"
+              },
+              {
+                "item": "Talisman Pouch",
+                "condition": "NG only, Margit not defeated"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 10399,
+          "defense": 114,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "parriesForStanceBreak": 3,
+            "note": "Vulnerable to critical hits after stance break or parry"
+          }
+        },
+        "combat": {
+          "phases": {
+            "phase1": {
+              "damageTypes": ["Slash", "Pierce", "Holy"],
+              "threshold": "80% HP",
+              "mechanics": [
+                "Scripted Holy Swords Rain attack at threshold",
+                "Unlocks new abilities after threshold",
+                "Margit's Shackle usable twice"
+              ]
+            },
+            "phase2": {
+              "damageTypes": ["Slash", "Pierce", "Fire", "Holy"],
+              "threshold": "60% HP (hard cap 55%)",
+              "mechanics": [
+                "Geysers after floor-hitting attacks",
+                "Bloodflame abilities",
+                "Rapid Weapon Change (below 30% HP)",
+                "Weather changes to rain"
+              ]
+            }
+          },
+          "inflicts": ["Hemorrhage"],
+          "negations": {
+            "standard": 0,
+            "slash": -10,
+            "strike": 0,
+            "pierce": 0,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [337, 435, 725, 1182],
+            "scarletRot": [337, 435, 725, 1182],
+            "hemorrhage": [337, 435, 725, 1182],
+            "frostbite": [337, 435, 725, 1182],
+            "sleep": [552, 842, 1299],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Melina",
+              "location": "Top of stairs, right side of fog gate",
+              "abilities": ["Blade of Calling", "Erdtree Incantations"]
+            },
+            {
+              "name": "Dung Eater",
+              "condition": "Released from cell during questline"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Slash"],
+          "resistances": ["Holy", "Sleep"],
+          "tips": [
+            "Position near left leg from outside",
+            "Roll into Holy Hammer overhead slam",
+            "Dodge behind during sword attacks",
+            "Use Lightning damage in phase 2 due to water",
+            "For DEX: Use Curved Swords or Curved Greatswords",
+            "For STR: Use Fist Weapons, Greatswords, or Hammers",
+            "Effective Incantations: Catch Flame, Frenzied Burst, Lightning Spear",
+            "Effective Sorceries: Carian Slicer, Night Comet, Glinstone Icecrag"
+          ]
+        }
+      },
+      {
+        "id": 20,
+        "name": "Mohg, the Omen",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "variants": [
+          {
+            "name": "Mohg, Lord of Blood",
+            "note": "Plays crucial role in Shadow of the Erdtree DLC",
+            "lore": "Kidnapped Miquella for failed deification ritual"
+          }
+        ],
+        "requiredFor": {
+          "area": "Deeproot Depths",
+          "note": "Either this boss or Valiant Gargoyle duo must be defeated",
+          "ending": "Certain ending (unspecified)"
+        },
+        "locations": [
+          {
+            "area": "Subterranean Shunning-Grounds",
+            "subArea": "Cathedral of the Forsaken",
+            "siteOfGrace": "Forsaken Depths",
+            "access": {
+              "directions": [
+                "From Forsaken Depths Site of Grace",
+                "Head down the stairs to Cathedral"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 100000
+              },
+              {
+                "item": "Bloodflame Talons"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 14000,
+          "defense": 117,
+          "stance": 110,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Pierce", "Fire"],
+          "inflicts": ["Hemorrhage"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 80,
+            "lightning": 40,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": "immune",
+            "scarletRot": "immune",
+            "hemorrhage": "immune",
+            "frostbite": "immune",
+            "sleep": "immune",
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Deals 20% more damage for 20 seconds after inflicting Blood Loss"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Dung Eater",
+              "condition": "Released from cell, before moat invasion"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Slash", "Strike", "Pierce"],
+          "resistances": ["Fire"],
+          "tips": [
+            "Use Mohg's Shackle item",
+            "Switch to Occult Affinities (for Arcane builds)"
+          ]
+        }
+      },
+      {
+        "id": 21,
+        "name": "Commander Niall",
+        "type": "Great Enemy",
+        "isOptional": true,
+        "requiredFor": {
+          "area": "Consecrated Snowfield"
+        },
+        "locations": [
+          {
+            "area": "Castle Sol",
+            "subArea": "Mountaintops of the Giants",
+            "siteOfGrace": "Church of the Eclipse",
+            "access": {
+              "directions": [
+                "Take church's eastern exit",
+                "Go through next building",
+                "Arrive at upper level of eastern section",
+                "Find fog gate and shortcut lift"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 90000
+              },
+              {
+                "item": "Veteran's Prosthesis"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 15541,
+          "defense": 117,
+          "stance": 90,
+          "parryable": {
+            "isParryable": true,
+            "note": "Vulnerable to critical hits after stance break or parry"
+          }
+        },
+        "combat": {
+          "phases": {
+            "phase1": {
+              "damageTypes": ["Standard", "Strike", "Pierce"],
+              "mechanics": [
+                "Summons two Banished Knight spirits",
+                "Focuses on buffing allies",
+                "Simple, easily avoided attacks"
+              ]
+            },
+            "phase2": {
+              "damageTypes": ["Standard", "Slash", "Strike", "Pierce", "Lightning"],
+              "threshold": "Both spirits defeated or 50% HP",
+              "mechanics": [
+                "More aggressive pursuit",
+                "Gains ice and lightning attacks",
+                "Whirlwind frost attacks"
+              ]
+            }
+          },
+          "inflicts": ["Frostbite"],
+          "negations": {
+            "standard": 10,
+            "slash": 35,
+            "strike": 10,
+            "pierce": 0,
+            "magic": 20,
+            "fire": 20,
+            "lightning": 20,
+            "holy": 20
+          },
+          "resistances": {
+            "poison": [343, 441, 731, 1188],
+            "scarletRot": [343, 441, 731, 1188],
+            "hemorrhage": [343, 441, 731, 1188],
+            "frostbite": [343, 441, 731, 1188],
+            "sleep": [343, 441, 731, 1188],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Killing both spirits forces phase 2 regardless of HP",
+            "Killing last knight during buff animation locks phase 1 until ~50% HP"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Pierce", "Magic"],
+          "resistances": ["Slash"],
+          "tips": [
+            "Focus dual greatsword Knight first",
+            "Use Bewitching Branches on Knights",
+            "Use tanky Spirit Ash for knight distraction",
+            "Attack after Charged Whirlwind dash",
+            "Jump to avoid shockwave stomp",
+            "Kill one Knight before summoning spirit",
+            "Use throwing knives to bait kick attacks",
+            "Consider backstab with Dagger Talisman on Knights",
+            "Run to right corner at start for Bewitching Branch strategy"
+          ]
+        }
+      },
+      {
+        "id": 22,
+        "name": "Fire Giant",
+        "type": "Legend",
+        "isOptional": false,
+        "requiredFor": {
+          "area": "Crumbling Farum Azula",
+          "progression": "Story advancement"
+        },
+        "locations": [
+          {
+            "area": "Flame Peak",
+            "subArea": "Mountaintops of the Giants",
+            "siteOfGrace": "Foot of the Forge",
+            "access": {
+              "directions": [
+                "From Foot of the Forge Site of Grace",
+                "Cross chasm on chain bridge"
+              ],
+              "note": "Use southern chain bridge entrance for Alexander's summon"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 180000
+              },
+              {
+                "item": "Remembrance of the Fire Giant"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 42363,
+          "defense": 118,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false
+          },
+          "weakSpots": {
+            "phase1": {
+              "location": "wounded leg",
+              "multiplier": 2.0
+            },
+            "phase2": {
+              "locations": ["wrists", "eye"],
+              "multiplier": 2.0
+            }
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Strike", "Fire"],
+          "negations": {
+            "standard": 0,
+            "slash": -10,
+            "strike": 0,
+            "pierce": 0,
+            "magic": 0,
+            "fire": 50,
+            "lightning": 0,
+            "holy": 20
+          },
+          "resistances": {
+            "poison": [566, 856, 1313],
+            "scarletRot": [566, 856, 1313],
+            "hemorrhage": [566, 856, 1313],
+            "frostbite": [1217, 1674],
+            "sleep": [566, 856, 1313],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Iron Fist Alexander",
+              "location": "Inside arena, past upper-elevation fog gate",
+              "note": "Unique summon location beyond fog gate"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Slash"],
+          "resistances": ["Fire", "Frostbite"],
+          "tips": [
+            "Use Black Knife Tiche or Mimic Tear Ashes",
+            "Avoid low-health group summons",
+            "Consider summoning Alexander for poise damage",
+            "Use Rotten Breath/Ekzykes's Decay Incantation",
+            "Consider bleed weapons despite resistance",
+            "Use Antspur Rapier with Seppuku for multiple status effects",
+            "Use Swarm of Flies in phase 2",
+            "Enhance status effects with appropriate talismans and equipment"
+          ],
+          "recommendedItems": [
+            "Mushroom Crown",
+            "Lord of Blood's Exultation",
+            "Kindred of Rot's Exultation",
+            "Radagon Icon",
+            "Faithful's Canvas Talisman"
+          ]
+        }
+      },
+      {
+        "id": 23,
+        "name": "Loretta, Knight of the Haligtree",
+        "type": "Greater Foe",
+        "isOptional": {
+          "general": true,
+          "specificEnding": {
+            "required": true,
+            "ending": "Blessing of Despair"
+          }
+        },
+        "requiredFor": {
+          "area": "Elphael, Brace of the Haligtree",
+          "boss": "Malenia, Blade of Miquella"
+        },
+        "locations": [
+          {
+            "area": "Miquella's Haligtree",
+            "siteOfGrace": "Haligtree Town",
+            "access": {
+              "directions": [
+                "From Haligtree Town Site of Grace",
+                "Head southeast to elevator",
+                "Take elevator to 2nd lower level",
+                "Cross wooden bridge",
+                "Go around gazebo",
+                "Cross northeast bridge",
+                "Enter large gateway"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 200000
+              },
+              {
+                "item": "Loretta's Mastery"
+              },
+              {
+                "item": "Loretta's War Sickle"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 13397,
+          "defense": 122,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "note": "Immune to critical attacks, stance break only causes brief stun"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Strike", "Pierce", "Magic"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 0,
+            "holy": 20
+          },
+          "resistances": {
+            "poison": [399, 497, 787, 1244],
+            "scarletRot": [399, 497, 787, 1244],
+            "hemorrhage": [653, 943, 1400],
+            "frostbite": [653, 943, 1400],
+            "sleep": [399, 497, 787, 1244],
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true
+        },
+        "strategy": {
+          "weaknesses": ["Lightning"],
+          "resistances": ["Magic", "Fire", "Hemorrhage", "Frostbite"],
+          "tips": [
+            "Combine Barrier of Gold with Spelldrake Talisman +2",
+            "Use Spell Parrying against Loretta's Greatbow",
+            "Use Ancient Lightning Spear to break attacks",
+            "See Royal Knight Loretta for additional strategies"
+          ]
+        }
+      },
+      {
+        "id": 24,
+        "name": "Malenia, Blade of Miquella",
+        "type": "Demigod",
+        "isOptional": true,
+        "isShardbearer": true,
+        "phases": [
+          {
+            "name": "Blade of Miquella",
+            "hp": 18473,
+            "damageTypes": ["Standard", "Slash", "Pierce"]
+          },
+          {
+            "name": "Goddess of Rot",
+            "hp": 14778,
+            "damageTypes": ["Standard", "Slash", "Pierce", "Holy"],
+            "inflicts": ["Scarlet Rot"],
+            "mechanics": ["Heals 80% HP on phase transition"]
+          }
+        ],
+        "locations": [
+          {
+            "area": "Elphael, Brace of the Haligtree",
+            "siteOfGrace": "Haligtree Roots",
+            "access": {
+              "directions": ["Down the stairs from Site of Grace"]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 480000
+              },
+              {
+                "item": "Malenia's Great Rune"
+              },
+              {
+                "item": "Remembrance of the Rot Goddess"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 33251,
+          "defense": 123,
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "parriesForStanceBreak": 3,
+            "note": "Vulnerable to critical hits after stance break or parry"
+          }
+        },
+        "combat": {
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 20,
+            "fire": 0,
+            "lightning": 20,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [1481, 1938],
+            "scarletRot": [1481, 1938],
+            "hemorrhage": [421, 519, 809, 1266],
+            "frostbite": [306, 348, 446, 736, 1193],
+            "sleep": [689, 979, 1436],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Heals on every hit (even blocked)",
+            "Low poise",
+            "Vulnerable to knockdown in phase 1",
+            "Can dodge spells",
+            "Healing scales with max HP (affected by co-op and NG+)"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "recommendedSpirits": [
+            {
+              "name": "Redmane Knight Ogha",
+              "note": "Can stagger and interrupt Phantom Spirits"
+            },
+            {
+              "name": "Black Knife Tiche",
+              "note": "Can dodge attacks and limit healing"
+            },
+            {
+              "name": "Latenna The Albinauric",
+              "note": "Good ranged option"
+            },
+            {
+              "name": "Dragon Knight Kristoff",
+              "note": "Reliable stagger with Thunderbolt"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Fire", "Hemorrhage", "Frostbite"],
+          "resistances": ["Holy", "Poison", "Scarlet Rot"],
+          "tips": [
+            "Stack physical damage reduction",
+            "Use Dragoncrest Greatshield Talisman",
+            "Consider Boiled Crab consumable",
+            "Use Opaline Hardtear in Flask",
+            "Consider Black Flame's Protection or Golden Vow",
+            "Use Stonebarb Cracked Tear for stance breaks",
+            "Combine Frost and Fire damage for repeated Frostbite",
+            "Use Rivers of Blood for Corpse Piler skill",
+            "Can interrupt Waterfowl Dance with Frost/Hemorrhage",
+            "Avoid tank summons due to healing mechanic",
+            "Consider Flame of the Fell God for Incantation users"
+          ]
+        }
+      },
+      {
+        "id": 25,
+        "name": "Godskin Duo",
+        "type": "Boss",
+        "isOptional": false,
+        "components": [
+          {
+            "name": "Godskin Apostle",
+            "hp": 6668,
+            "defense": 118,
+            "stance": 80,
+            "parryable": {
+              "isParryable": true,
+              "note": "Vulnerable to critical hits after stance break or parry"
+            },
+            "damageTypes": ["Slash", "Pierce", "Fire"],
+            "negations": {
+              "standard": 0,
+              "slash": -10,
+              "strike": 10,
+              "pierce": 0,
+              "magic": 20,
+              "fire": 40,
+              "lightning": 20,
+              "holy": 40
+            }
+          },
+          {
+            "name": "Godskin Noble",
+            "hp": 8000,
+            "defense": 118,
+            "stance": 80,
+            "parryable": {
+              "isParryable": true,
+              "note": "Vulnerable to critical hits after stance break or parry"
+            },
+            "damageTypes": ["Standard", "Pierce", "Fire"],
+            "negations": {
+              "standard": 0,
+              "slash": -10,
+              "strike": 35,
+              "pierce": 0,
+              "magic": 20,
+              "fire": 40,
+              "lightning": 20,
+              "holy": 40
+            }
+          }
+        ],
+        "locations": [
+          {
+            "area": "Crumbling Farum Azula",
+            "siteOfGrace": "Dragon Temple Transept",
+            "access": {
+              "directions": ["Head north from Site of Grace to fog gate"],
+              "alternateRoute": {
+                "from": "Dragon Temple",
+                "steps": [
+                  "Jump off west ledge",
+                  "Jump to lower platform",
+                  "Head east to Dragon Temple Transept"
+                ],
+                "note": "Shorter route avoiding Banished Knights"
+              }
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 170000
+              },
+              {
+                "item": "Ash of War: Black Flame Tornado"
+              },
+              {
+                "item": "Smithing-Stone Miner's Bell Bearing [4]",
+                "condition": "NG only"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 26350,
+          "sharedHealthBar": true
+        },
+        "combat": {
+          "resistances": {
+            "poison": [345, 443, 733, 1190],
+            "scarletRot": [345, 443, 733, 1190],
+            "hemorrhage": [251, 293, 391, 681],
+            "frostbite": [345, 443, 733, 1190],
+            "sleep": [251, 293, 391, 681],
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Single shared health bar",
+            "Killed Godskins resurrect automatically",
+            "Remaining Godskin can resurrect fallen partner",
+            "Both can be resurrected if killed simultaneously"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Knight Bernahl",
+              "location": "Near either entrance to arena"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Slash", "Sleep", "Hemorrhage"],
+          "resistances": ["Strike (Noble)", "Fire", "Holy"],
+          "tips": [
+            "Use Sleep on one boss to focus the other",
+            "Utilize pillars for cover and separation",
+            "Use Hoarfrost Stomp from behind pillars",
+            "Consider Dragon Communion spells through pillars",
+            "Try Borealis's Mist for damage",
+            "Be aggressive while Spirit Ash is active",
+            "Use Commander's Standard to buff Spirit Ash"
+          ]
+        }
+      },
+      {
+        "id": 26,
+        "name": "Dragonlord Placidusax",
+        "type": "Legend",
+        "isOptional": true,
+        "locations": [
+          {
+            "area": "Crumbling Farum Azula",
+            "siteOfGrace": "Beside the Great Bridge",
+            "access": {
+              "directions": [
+                "Take elevator down into church",
+                "Exit past Beastmen",
+                "Head to cluster of trees",
+                "Drop to platform below",
+                "Follow path to end",
+                "Find empty cubby on stone floor",
+                "Use 'Lie down' prompt"
+              ],
+              "note": "Teleports to boss arena"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 280000
+              },
+              {
+                "item": "Remembrance of the Dragonlord"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 26651,
+          "defense": 121,
+          "stance": 160,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          },
+          "weakSpot": "Heads",
+          "specialNotes": [
+            "Not classified as Dragon or Ancient Dragon type",
+            "Immune to Dragonwound Grease effects"
+          ]
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Fire", "Lightning"],
+          "negations": {
+            "standard": 35,
+            "slash": 35,
+            "strike": 35,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 40,
+            "holy": 40
+          },
+          "resistances": {
+            "poison": [1349, 1806],
+            "scarletRot": [1349, 1806],
+            "hemorrhage": [1349, 1806],
+            "frostbite": [1349, 1806],
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "recommendedSpirits": [
+            "Black Knife Tiche",
+            "Mimic Tear"
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Pierce"],
+          "resistances": ["Standard", "Slash", "Strike", "Magic", "Fire", "Lightning", "Holy"],
+          "tips": [
+            "Buff before approaching inner circle of pillars",
+            "Stay close to avoid lightning strikes in first phase",
+            "Lock-on during teleporting phase for easier dodging",
+            "Use Lion Greatbow with Radahn's Spears for high damage",
+            "Cast Pest Threads at point-blank range for multiple hits"
+          ],
+          "recommendedItems": {
+            "protection": [
+              "Flame Protect Me",
+              "Golden Lightning Fortification",
+              "Flamedrake Talisman +2",
+              "Boltdrake Talisman +2",
+              "Lightningproof Dried Liver",
+              "Fireproof Dried Liver"
+            ],
+            "weapons": [
+              "Envoy's Long Horn",
+              "Death's Poker",
+              "Lion Greatbow"
+            ],
+            "skills": [
+              "Black Flame Tornado",
+              "Blade of Death",
+              "Destined Death"
+            ],
+            "sorceries": [
+              "Shard Spiral",
+              "Comet Azur",
+              "Night Maiden's Mist",
+              "Rykard's Rancor"
+            ],
+            "incantations": [
+              "Ancient Dragons' Lightning Strike",
+              "Black Flame",
+              "Scouring Black Flame",
+              "Black Blade",
+              "Pest Threads"
+            ]
+          }
+        },
+        "lore": {
+          "description": "Massive two-headed ancient dragon",
+          "history": [
+            "Former Elden Lord before Marika's reign",
+            "Ruled alongside a god who later fled",
+            "Originally had more heads that were removed"
+          ]
+        }
+    },
+    {
+      "id": 27,
+      "name": "Maliketh, The Black Blade",
+      "aliases": ["Beast Clergyman", "Gurranq"],
+      "type": "Legend",
+      "isOptional": false,
+      "requiredFor": {
+        "area": "Leyndell, Ashen Capital",
+        "progression": "Story advancement"
+      },
+      "phases": [
+        {
+          "name": "Beast Clergyman",
+          "damageTypes": ["Standard", "Slash", "Pierce", "Magic"],
+          "mechanics": [
+            "Low horizontal swings can be jumped over",
+            "Uses rock sling and air burst ranged attacks",
+            "Can summon falling boulders",
+            "Posture break carries over to phase 2"
+          ]
+        },
+        {
+          "name": "Maliketh, The Black Blade",
+          "threshold": "50% HP",
+          "damageTypes": ["Standard", "Pierce", "Holy"],
+          "mechanics": [
+            "Reduces max health temporarily",
+            "Applies damage over time",
+            "Uses pillars for aerial movement",
+            "Destined Death attacks have frontal cone AoE"
+          ]
+        }
+      ],
+      "locations": [
+        {
+          "area": "Crumbling Farum Azula",
+          "siteOfGrace": "Beside the Great Bridge",
+          "access": {
+            "directions": [
+              "Head west from Site of Grace",
+              "Go south up the stairs",
+              "Up ramp past Draconic Tree Sentinel",
+              "Enter door to boss room"
+            ]
+          },
+          "drops": [
+            {
+              "item": "Runes",
+              "amount": 220000
+            },
+            {
+              "item": "Remembrance of the Black Blade"
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "hp": 10620,
+        "defense": 120,
+        "stance": 80,
+        "parryable": {
+          "isParryable": true,
+          "note": "Parryable with Blasphemous Claw against specific attacks",
+          "parryableAttacks": [
+            {
+              "attack": "Black Blade slash",
+              "timing": "Ending part",
+              "indicator": "White aura around sword"
+            },
+            {
+              "attack": "Black Blade dive",
+              "note": "Longer stun window than slash"
+            },
+            {
+              "attack": "Vertical double-spin",
+              "timing": "After landing on sword",
+              "note": "Much smaller window"
+            }
+          ]
+        }
+      },
+      "combat": {
+        "damageTypes": ["Standard", "Slash", "Pierce", "Holy"],
+        "negations": {
+          "standard": 35,
+          "slash": 35,
+          "strike": 35,
+          "pierce": 35,
+          "magic": 40,
+          "fire": 40,
+          "lightning": 40,
+          "holy": 80
+        },
+        "resistances": {
+          "poison": [351, 449, 739, 1196],
+          "scarletRot": [351, 449, 739, 1196],
+          "hemorrhage": [574, 864, 1321],
+          "frostbite": [574, 864, 1321],
+          "sleep": [2277, 2277],
+          "madness": "immune"
+        },
+        "specialMechanics": [
+          "Successful parry with Blasphemous Claw reduces damage resistance by 20%",
+          "Phase 2 attacks reduce max health temporarily",
+          "Parrying too late may result in damage despite successful parry"
+        ]
+      },
+      "multiplayer": {
+        "isAllowed": true,
+        "spiritAshesAllowed": true
+      },
+      "strategy": {
+        "weaknesses": ["Standard", "Slash", "Strike", "Pierce"],
+        "resistances": ["Holy", "Sleep"],
+        "tips": [
+          "Move forward immediately after entering fog gate",
+          "Jump over Beast Clergyman's horizontal swings for counterattacks",
+          "Roll forward through ranged attacks",
+          "Stay close in phase 2 to avoid frontal cone attacks",
+          "Use pillars for cover when healing",
+          "Force phase transition near posture break for early stun",
+          "Strafe forward-right to dodge some attacks",
+          "Roll into 360-degree spinning attack"
+        ]
+      }
+     },{
+        "id": 28,
+        "name": "Lichdragon Fortissax",
+        "type": "Legend",
+        "isOptional": {
+          "general": true,
+          "specificEnding": {
+            "required": true,
+            "note": "Missable if Fia is killed before quest completion"
+          }
+        },
+        "variants": [
+          {
+            "name": "Ancient Dragon Lansseax",
+            "type": "Boss variant"
+          },
+          {
+            "name": "Ancient Dragon Senessax",
+            "type": "Boss variant"
+          },
+          {
+            "name": "Farum Azula Dragon",
+            "type": "Normal enemy variant"
+          }
+        ],
+        "locations": [
+          {
+            "area": "Deeproot Depths",
+            "siteOfGrace": "Prince of Death's Throne",
+            "access": {
+              "requirement": "Defeat Fia's Champions",
+              "steps": [
+                "Give Fia the Cursemark of Death",
+                "Talk to Fia three times",
+                "Reload area",
+                "Interact with Fia's corpse",
+                "Choose 'Enter the Deathbed Dream'"
+              ]
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 90000
+              },
+              {
+                "item": "Remembrance of the Lichdragon"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 12903,
+          "defense": 114,
+          "stance": {
+            "value": 140,
+            "absorption": {
+              "body": 60,
+              "head": 20
+            }
+          },
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          },
+          "weakSpot": {
+            "location": "head",
+            "multiplier": 2.0
+          },
+          "category": "Ancient Dragon"
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Fire", "Lightning"],
+          "inflicts": ["Death Blight"],
+          "negations": {
+            "standard": 35,
+            "slash": 35,
+            "strike": 35,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 80,
+            "holy": 80
+          },
+          "resistances": {
+            "poison": [552, 842, 1299],
+            "scarletRot": [552, 842, 1299],
+            "hemorrhage": [552, 842, 1299],
+            "frostbite": [552, 842, 1299],
+            "sleep": "immune",
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "recommendedSpirits": [
+            {
+              "name": "Mimic Tear",
+              "note": "Good tank and aggro management"
+            },
+            {
+              "name": "Greatshield Soldiers",
+              "note": "Alternative option with less damage"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Pierce"],
+          "resistances": ["Lightning", "Holy"],
+          "tips": [
+            "Avoid locking on, target legs instead",
+            "Use multi-hit spells like Rock Sling or Meteorite of Astel",
+            "Consider Rotten Breath or Comet Azur for damage",
+            "Use Lightningproof Dried Livers and Boiled Crab",
+            "Bring Rejuvenating Boluses",
+            "Equip Prince of Death's Cyst/Pustule for Death Blight resistance"
+          ]
+        },
+        "lore": {
+          "description": "Massive four-winged black dragon",
+          "history": [
+            "Befriended Godwyn the Golden during War of Ancient Dragons",
+            "Attempted to save Godwyn from death blight",
+            "Eventually succumbed to the death blight"
+          ]
+        }
+    },
+    {
+      "id": 29,
+      "name": "Mohg, Lord of Blood",
+      "type": "Demigod",
+      "isOptional": {
+        "mainGame": true,
+        "dlc": {
+          "name": "Shadow of the Erdtree",
+          "isOptional": false
+        }
+      },
+      "isShardbearer": true,
+      "variants": [
+        {
+          "name": "Mohg, the Omen",
+          "type": "Boss variant"
+        }
+      ],
+      "locations": [
+        {
+          "area": "Mohgwyn Palace",
+          "siteOfGrace": "Dynasty Mausoleum Midpoint",
+          "access": {
+            "directions": [
+              "From Dynasty Mausoleum Entrance",
+              "Take stairs up to mausoleum",
+              "Take left stairs past Imprisoned Merchant",
+              "Turn right at top",
+              "Take door out of mausoleum",
+              "Reach Dynasty Mausoleum Midpoint",
+              "Take elevator on right to boss arena"
+            ]
+          },
+          "drops": [
+            {
+              "item": "Runes",
+              "amount": 420000
+            },
+            {
+              "item": "Mohg's Great Rune"
+            },
+            {
+              "item": "Remembrance of the Blood Lord"
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "hp": 18389,
+        "defense": 122,
+        "stance": 110,
+        "parryable": {
+          "isParryable": false,
+          "note": "Vulnerable to critical hits after stance break"
+        }
+      },
+      "combat": {
+        "damageTypes": ["Standard", "Pierce", "Fire"],
+        "inflicts": ["Hemorrhage"],
+        "negations": {
+          "standard": 10,
+          "slash": 10,
+          "strike": 10,
+          "pierce": 10,
+          "magic": 40,
+          "fire": 80,
+          "lightning": 40,
+          "holy": 40
+        },
+        "resistances": {
+          "poison": [653, 943, 1400],
+          "scarletRot": [653, 943, 1400],
+          "hemorrhage": [290, 332, 430, 720],
+          "frostbite": [653, 943, 1400],
+          "sleep": [1406, 1863],
+          "madness": "immune"
+        },
+        "specialMechanics": [
+          {
+            "mechanic": "Blood Loss Damage Boost",
+            "description": "15% damage increase for 20 seconds after blood loss",
+            "note": "Not applied during critical hits"
+          },
+          {
+            "mechanic": "Phase Transition",
+            "sequence": ["Tres", "Duo", "Unus"],
+            "effect": "Places red rings on player",
+            "followup": {
+              "action": "Nihil chant (3 times)",
+              "effects": [
+                "Deals large damage",
+                "Heals boss",
+                "Cancels player healing"
+              ],
+              "counter": "Purifying Crystal Tear"
+            }
+          }
+        ]
+      },
+      "multiplayer": {
+        "isAllowed": true,
+        "spiritAshesAllowed": true
+      },
+      "strategy": {
+        "weaknesses": ["Standard", "Slash", "Strike", "Pierce", "Hemorrhage"],
+        "resistances": ["Fire", "Magic", "Lightning", "Holy"],
+        "tips": [
+          "Use Mohg's Shackle before phase 2",
+          "Use Purifying Crystal Tear to negate Nihil damage",
+          "Heal between second and third Nihil if no tear",
+          "Equip fire and physical damage reduction",
+          "Consider Lord of Blood's Exultation for damage boost",
+          "Try to burst through phase 1 during countdown",
+          "Roll away from Bloodflame Talons explosion",
+          "Roll forward through Spear Swings",
+          "Attack from behind after dodging Thrust"
+        ],
+        "keyMoves": [
+          {
+            "name": "Bloodflame Talons",
+            "pattern": "Quick slash followed by explosion"
+          },
+          {
+            "name": "Bloodboon",
+            "variants": ["Wide arc", "Narrow cone", "Shower"],
+            "effect": "Ignites ground and inflicts hemorrhage"
+          },
+          {
+            "name": "Spear Attacks",
+            "moves": ["Horizontal swipes", "Ground thrust"]
+          }
+        ]
+      },
+      "lore": {
+        "description": "Twin of Morgott who embraced his Omen blood",
+        "background": [
+          "Encountered the Formless Mother",
+          "Gained ability to use bloodflame magic",
+          "Seeks to elevate Miquella to godhood",
+          "Aims to become Miquella's consort"
+        ]
+      }
+     },
+     {
+        "id": 30,
+        "name": "Godfrey, First Elden Lord",
+        "type": "Legend",
+        "isOptional": false,
+        "requiredFor": {
+          "progression": "Story advancement"
+        },
+        "phases": [
+          {
+            "name": "First Elden Lord",
+            "hp": 21903,
+            "threshold": "60% HP",
+            "damageTypes": ["Standard", "Strike"],
+            "mechanics": [
+              "Enhanced stomp attacks with red aura",
+              "Shockwave attacks can be jumped over",
+              "Serosh suppresses violent urges"
+            ]
+          },
+          {
+            "name": "Hoarah Loux, Warrior",
+            "damageTypes": ["Standard", "Strike"],
+            "mechanics": [
+              "Removes Serosh and armor",
+              "Gains wrestling moves and grabs",
+              "More aggressive fighting style",
+              "Can chain multiple grab attacks"
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "area": "Leyndell, Ashen Capital",
+            "siteOfGrace": "Queen's Bedchamber",
+            "access": {
+              "directions": [
+                "From Queen's Bedchamber Site of Grace",
+                "Climb southeast stairs",
+                "Enter former Morgott arena"
+              ],
+              "requirement": "Complete Crumbling Farum Azula"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 183000
+              },
+              {
+                "item": "Remembrance of Hoarah Loux"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 21903,
+          "defense": 120,
+          "stance": 120,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          }
+        },
+        "combat": {
+          "phases": {
+            "phase1": {
+              "negations": {
+                "standard": 10,
+                "slash": 10,
+                "strike": 10,
+                "pierce": 0,
+                "magic": 20,
+                "fire": 20,
+                "lightning": 0,
+                "holy": 40
+              }
+            },
+            "phase2": {
+              "negations": {
+                "standard": 0,
+                "slash": -10,
+                "strike": 0,
+                "pierce": 0,
+                "magic": 0,
+                "fire": 0,
+                "lightning": 0,
+                "holy": 40
+              }
+            }
+          },
+          "resistances": {
+            "poison": [367, 465, 755, 1212],
+            "scarletRot": [367, 465, 755, 1212],
+            "hemorrhage": [601, 891, 1348],
+            "frostbite": [601, 891, 1348],
+            "sleep": {
+              "phase1": [601, 891, 1348],
+              "phase2": [1292, 1749]
+            },
+            "madness": "immune"
+          }
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Nepheli Loux",
+              "condition": "Complete her questline and crown her ruler of Limgrave",
+              "location": "Outside boss arena"
+            },
+            {
+              "name": "Shabriri",
+              "condition": "Contact Three Fingers, unavailable after using Miquella's Needle",
+              "location": "Outside boss arena"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": {
+            "phase1": ["Pierce", "Lightning"],
+            "phase2": ["Slash"]
+          },
+          "resistances": {
+            "phase1": ["Holy", "Sleep"],
+            "phase2": ["Holy"]
+          },
+          "tips": [
+            "Stay close in phase 1 to prevent dash attacks",
+            "Jump over shockwave attacks instead of rolling",
+            "Watch for grapple patterns in phase 2",
+            "Use Ancient Dragons' Lightning Strike during roar animations",
+            "Block axe swings in phase 1 if needed",
+            "Dodge grab attacks in phase 2",
+            "Use skills/spells that keep you airborne"
+          ]
+        }
+      },
+    {
+        "id": 31,
+        "name": "Draconic Tree Sentinel",
+        "type": "Boss",
+        "isOptional": {
+          "mainGame": true,
+          "note": "Required for accessing Leyndell, Royal Capital"
+        },
+        "locations": [
+          {
+            "area": "Capital Outskirts",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 50000
+              },
+              {
+                "item": "Dragon Greatclaw"
+              },
+              {
+                "item": "Dragonclaw Shield"
+              }
+            ]
+          },
+          {
+            "area": "Crumbling Farum Azula",
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 28080
+              },
+              {
+                "item": "Malformed Dragon Set"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "stance": 80,
+          "parryable": {
+            "isParryable": true,
+            "note": "Immune to critical attacks, stance break only causes brief stun"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Strike", "Fire", "Lightning"],
+          "negations": {
+            "standard": 10,
+            "slash": 35,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 20,
+            "fire": 40,
+            "lightning": 40,
+            "holy": 20
+          },
+          "specialMechanics": [
+            "Mounted combat",
+            "Shield-based lightning attacks",
+            "Horse fireball attacks"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "npcSummons": [
+            {
+              "name": "Tragoth",
+              "location": "Outside boss area"
+            },
+            {
+              "name": "Millicent",
+              "location": "Outside boss area"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Standard", "Strike", "Pierce"],
+          "resistances": ["Slash", "Fire", "Lightning", "Hemorrhage", "Frostbite"],
+          "tips": [
+            "Sneak up from behind for initial damage in Capital Outskirts",
+            "Use Rotten Breath or Poison for consistent damage",
+            "Parry fireballs with Erdtree Greatshield or Carian Retaliation",
+            "Roll when shield is lowered during lightning attacks",
+            "Stay close to avoid repeated fireball attacks",
+            "Heal after dodging fireball attacks",
+            "Use Godrick's Great Rune with Rune Arc for survival"
+          ]
+        }
+      }, {
+        "id": 32,
+        "name": "Elden Beast",
+        "type": "Legend",
+        "isOptional": false,
+        "isFinalBoss": true,
+        "requiredFor": {
+          "progression": "Game completion"
+        },
+        "locations": [
+          {
+            "area": "Elden Throne",
+            "access": {
+              "requirement": "Defeat Radagon of the Golden Order",
+              "note": "Appears immediately after Radagon's defeat"
+            },
+            "drops": [
+              {
+                "item": "Runes",
+                "amount": 500000
+              },
+              {
+                "item": "Elden Remembrance"
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "hp": 22127,
+          "defense": 121,
+          "stance": 150,
+          "parryable": {
+            "isParryable": false,
+            "note": "Vulnerable to critical hits after stance break"
+          }
+        },
+        "combat": {
+          "damageTypes": ["Standard", "Holy"],
+          "negations": {
+            "standard": 10,
+            "slash": 10,
+            "strike": 10,
+            "pierce": 10,
+            "magic": 40,
+            "fire": 40,
+            "lightning": 40,
+            "holy": 80
+          },
+          "resistances": {
+            "poison": "immune",
+            "scarletRot": "immune",
+            "hemorrhage": "immune",
+            "frostbite": "immune",
+            "sleep": "immune",
+            "madness": "immune"
+          },
+          "specialMechanics": [
+            "Highly mobile",
+            "Requires defeating Radagon again on death",
+            "Can summon Torrent (as of patch 1.12)"
+          ]
+        },
+        "multiplayer": {
+          "isAllowed": true,
+          "spiritAshesAllowed": true,
+          "recommendedSpirits": [
+            {
+              "name": "Mimic Tear",
+              "note": "Best overall choice"
+            }
+          ]
+        },
+        "strategy": {
+          "weaknesses": ["Physical", "Black Flame"],
+          "resistances": ["Holy", "All Elements"],
+          "tips": [
+            "Run behind beast at start to avoid fire breath",
+            "Use Lord's Divine Fortification for holy defense",
+            "Combine with Haligdrake Talisman for up to 70% holy negation",
+            "Use Green Turtle Talisman for stamina regeneration",
+            "Avoid lock-on at close range",
+            "Jump over ring attacks instead of rolling",
+            "Use Pest Threads from behind for high damage",
+            "Consider Radahn's Rain and Spears combo",
+            "Lock onto body instead of head",
+            "Use Black Flame Tornado for percentage-based damage",
+            "Try to stagger before Elden Stars cast"
+          ],
+          "recommendedItems": [
+            "Haligdrake Talisman +2",
+            "Green Turtle Talisman",
+            "Holyproof Dried Liver",
+            "Black Flame incantations"
+          ]
+        },
+        "lore": {
+          "description": "True form of the Elden Ring",
+          "background": [
+            "Vassal of the Greater Will",
+            "Sent to Lands Between as a golden star",
+            "Predates events of the game"
+          ]
+        }
+      }
+    ]
+  }
